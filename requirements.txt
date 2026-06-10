@@ -1,0 +1,17 @@
+# Python requirements for the full project.
+# MATLAB is required separately for Data preprocessing/data_processing_code_V1.m.
+
+# Shared scientific stack
+numpy==2.1.3
+scipy==1.15.2
+pandas==2.2.3
+openpyxl
+
+# Dataset visualization notebooks
+ipykernel==6.29.5
+matplotlib==3.10.1
+scikit-learn==1.6.1
+
+# Model construction
+torch==2.6.0+cu126
+torch-scatter==2.1.2+pt26cu124

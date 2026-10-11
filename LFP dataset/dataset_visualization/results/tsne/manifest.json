@@ -1,0 +1,470 @@
+{
+  "dataset": "LFP dataset",
+  "category": "tsne",
+  "notebook": "Input tsne distribution/plot.ipynb",
+  "notebook_sha256": "02e741194bd10f95da4cf074483e07f4345c71205b7d42cc558f6784478cbb1e",
+  "datasets": {
+    "LFP_data_processed.mat": {
+      "path": "..\\dataset\\LFP_data_processed.mat",
+      "sha256": "7c95928c620bf23c61456225fca8838a21951432b7ffe58ce75bd0d651b82d05"
+    }
+  },
+  "figures": [
+    {
+      "path": "..\\outputs\\tsne\\combined_tail_and_segments_tsne_Vtail_2.73.png",
+      "sha256": "5e66e53300026e62e371d01eaa7e079fbee9dcc2ae712771b68027b4824b605b",
+      "dpi": 300,
+      "figsize_inches": [
+        24.0,
+        6.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tsne\\combined_tail_and_segments_tsne_Vtail_2.75.png",
+      "sha256": "b63a1663483761e3fdd3dcbc87776db9c39c6ff7ce5c2d4ac1a76383458a3eea",
+      "dpi": 300,
+      "figsize_inches": [
+        24.0,
+        6.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tsne\\combined_tail_and_segments_tsne_Vtail_2.77.png",
+      "sha256": "9a2673ee866e5cc366a388504a1d987ac446834e0a35acabd4637ec7797eeea3",
+      "dpi": 300,
+      "figsize_inches": [
+        24.0,
+        6.0
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "path": "tsne\\tail_embedding_Vtail_2.73.csv",
+      "sha256": "2d238310c859a3deb179bf4c67b737edd9ede84926da383776168e7b07d6c887",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\tail_rows_Vtail_2.73.csv",
+      "sha256": "dc5e804b5e9f9f5954ac52280e0da4a74014fbc76e0da10301071ee3db83b6f9",
+      "rows": 47,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_1_embedding_Vtail_2.73.csv",
+      "sha256": "56bb7ba9d9a57c3e2a04499a82f5fc678941e109a2694beaedb367c3acfc5269",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_1_rows_Vtail_2.73.csv",
+      "sha256": "ccb62dfdbea4dd206832bd6e008a3006e8bdd9f42372f46b3dc0fac6ef4912b1",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_2_embedding_Vtail_2.73.csv",
+      "sha256": "88b01d92ec6f3026d058d8693827f3ca113c5f32eef5e53800f815f6997fc0e7",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_2_rows_Vtail_2.73.csv",
+      "sha256": "e60af95c9996ee57edcd0c6b2c1380e325e08b238dc3d32b5295274ef576bb2e",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_3_embedding_Vtail_2.73.csv",
+      "sha256": "ef3c2cc7929e5397384b4adc3e9c41955087f130f389e53ed5680da8bae3b8fb",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_3_rows_Vtail_2.73.csv",
+      "sha256": "92dee4512a10fed6db0cc475a7f1aa243528c7ffaf28cba8dfcca62fd6f2f81b",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_4_embedding_Vtail_2.73.csv",
+      "sha256": "9dc7a8e7dd98490ace0cb44bd8e430ce7fe7c94cbd1079e06e51769b3007f8a0",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_4_rows_Vtail_2.73.csv",
+      "sha256": "f3b97333867c647656e097bd99ce56ce1e25ed6acc9e9491f49d76c89ea54a0c",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_5_embedding_Vtail_2.73.csv",
+      "sha256": "76c00f43875600d9faabbc1cb6e6e6fa17bea81a0f8cad929504b60bf8f5a747",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_5_rows_Vtail_2.73.csv",
+      "sha256": "9c4984c34b7c91681d293fdc1b6fa3c0fa066534b29ddc91058c4905ad8f3a6f",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_6_embedding_Vtail_2.73.csv",
+      "sha256": "8f3299acfdd5a2083e85c96f58d2fcd90181b3c9ec5fd9aa11fa6077f46262b7",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_6_rows_Vtail_2.73.csv",
+      "sha256": "1ef700b9755aa10ae67bb8eaea388574bba61ede1146cbf19c332e5ee41db628",
+      "rows": 9,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\tail_embedding_Vtail_2.75.csv",
+      "sha256": "1da9c709d268eba153e062313c3091e9ea3f91d12fbba3923e309e35305975ac",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\tail_rows_Vtail_2.75.csv",
+      "sha256": "f1e61a936a4dc0c629d549b432922877221261717a7a36551c0f10757549fbf5",
+      "rows": 51,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_1_embedding_Vtail_2.75.csv",
+      "sha256": "ecc09b961bcb3818236e9b2abd4136069bf4a3f9b333ece26b7bb4b74458f90f",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_1_rows_Vtail_2.75.csv",
+      "sha256": "8b08da39ebb19c81d8bc87239fee1b9ba13d10fdf93d46638b9c3562af112de0",
+      "rows": 11,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_2_embedding_Vtail_2.75.csv",
+      "sha256": "802d3e2f5609f47eef735acf58104f8059e213b530dd07a960503326aa17ec3d",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_2_rows_Vtail_2.75.csv",
+      "sha256": "f730728a26fb74154e7eccb8e16548dd802688c36ad756003d0d637e5b2b5e94",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_3_embedding_Vtail_2.75.csv",
+      "sha256": "059382904ab523e09c41f4db6638a96c42ac2fa823069297db229a5d149de5b2",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_3_rows_Vtail_2.75.csv",
+      "sha256": "94372ec643fb0fe81fedd06aac8897cd05d87079c609cea0afe9d19ce2ae1198",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_4_embedding_Vtail_2.75.csv",
+      "sha256": "2a7783615aee48f9707bdebca285f28f1714b904e5debc2c47e332d5c74ab818",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_4_rows_Vtail_2.75.csv",
+      "sha256": "6e47080fe9b4a42ea3f2fd9fd631784b79f2f9b9e4f85afbfccb42908a34df5b",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_5_embedding_Vtail_2.75.csv",
+      "sha256": "67120ab7a31d3c1b07c30f3a9880688558323d646b630d2934b4cf57de89137b",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_5_rows_Vtail_2.75.csv",
+      "sha256": "409d6ea5b3a308ac49d9623910dc78c4e3808f54e4081c49fe13fa708e007193",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_6_embedding_Vtail_2.75.csv",
+      "sha256": "06db8ec72b12c99cbfc0d45160434972776ee6ff718288881fd7b4d3d91b0454",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_6_rows_Vtail_2.75.csv",
+      "sha256": "b79d56f50d2af1acbd0557980a919bf32734a2237d85929b65b70db292b879bf",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\tail_embedding_Vtail_2.77.csv",
+      "sha256": "b83b6f6e542234f4541904b1829dac9ae71cf4b26d751238ff4198063a2a4082",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\tail_rows_Vtail_2.77.csv",
+      "sha256": "84661f302ee91c9002d7198cb809f5628142d68992c782d454cd6efd90a5df25",
+      "rows": 54,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_1_embedding_Vtail_2.77.csv",
+      "sha256": "66b1a296230fd9d090c58db82f18a28485b71dfc450ea33c9a219162d351aa0d",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_1_rows_Vtail_2.77.csv",
+      "sha256": "a2308c08415ce0bdf4ba91dc521fd6f9741beb78595bafa5bc2ce6574c79f435",
+      "rows": 11,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_2_embedding_Vtail_2.77.csv",
+      "sha256": "9a63b20e6a17de37a6f23942407d078d0ffbc23ec462122eef63d6526dd269a7",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_2_rows_Vtail_2.77.csv",
+      "sha256": "e3d05c30c69e55f905fe99bfec0d2b5c77cac4e35350c53bd11b2daebeac8035",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_3_embedding_Vtail_2.77.csv",
+      "sha256": "b87607e3e583afc8ac3202bb51ee1d3faa7c6231f7a3c6a69fa4ff11363d29ba",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_3_rows_Vtail_2.77.csv",
+      "sha256": "e972f17e243ab323be9892fb228fe98e9c96841d77579d2bd14b57aa2eb5a1a2",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_4_embedding_Vtail_2.77.csv",
+      "sha256": "dfdd87cae69b6db4933837a27aff979ad1d5ddd5423990659ba57312146bc6ee",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_4_rows_Vtail_2.77.csv",
+      "sha256": "a46dc7592b36a57794be388df0ccf39f9bf0a96d656e76b39a63d3917ee366b9",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_5_embedding_Vtail_2.77.csv",
+      "sha256": "9b0d064e683401d0bab3886c6f4794bf769b1e434ea1e56a256300d9cc8142ed",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_5_rows_Vtail_2.77.csv",
+      "sha256": "358ea0972770f6876a56bfc8038714273f124ecda6db3c1e3491c1a2f0852d74",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_6_embedding_Vtail_2.77.csv",
+      "sha256": "3e11f77f17ffe360e59ef769f58b678ffdd259c628428f6f70e45f6d5d42c69e",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "tsne_1",
+        "tsne_2"
+      ]
+    },
+    {
+      "path": "tsne\\fragment_6_rows_Vtail_2.77.csv",
+      "sha256": "9cdcd365748b8dbdcefb4af8411709553b4f3d2f3c05a1eed043879790f5098b",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V"
+      ]
+    }
+  ],
+  "versions": {
+    "numpy": "2.1.3",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.1",
+    "scikit_learn": "1.6.1"
+  },
+  "interpretation": "Descriptive dataset analysis; no trained model is used. See README for sampling and SOC definitions."
+}

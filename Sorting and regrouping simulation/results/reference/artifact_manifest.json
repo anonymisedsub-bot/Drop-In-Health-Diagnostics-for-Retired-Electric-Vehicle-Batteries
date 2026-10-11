@@ -1,0 +1,20 @@
+{
+  "status": "VERIFIED",
+  "verification": {
+    "status": "PASS",
+    "standalone": true,
+    "release": "FINAL",
+    "raw_rows": 135000,
+    "paired_rows": 270000,
+    "methods": 5,
+    "comparisons": 10,
+    "frozen_result_files_checked": 9,
+    "input_conditions": 27,
+    "random_draws_verified": true,
+    "metric_identities_verified": true,
+    "figure_sets": 1,
+    "figure_exports": 13,
+    "figure_panels": 12,
+    "removed_method_absent_from_results_and_figures": true
+  }
+}

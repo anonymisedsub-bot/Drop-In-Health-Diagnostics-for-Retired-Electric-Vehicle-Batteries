@@ -1,0 +1,110 @@
+[
+  {
+    "panel": "a",
+    "pixels": [
+      4251,
+      1559
+    ],
+    "size_match": true,
+    "pixel_identical": true
+  },
+  {
+    "panel": "b",
+    "pixels": [
+      1870,
+      1305
+    ],
+    "size_match": true,
+    "pixel_identical": true
+  },
+  {
+    "panel": "c",
+    "pixels": [
+      2008,
+      1157
+    ],
+    "size_match": true,
+    "pixel_identical": true
+  },
+  {
+    "panel": "d",
+    "pixels": [
+      2008,
+      1157
+    ],
+    "size_match": true,
+    "pixel_identical": true
+  },
+  {
+    "panel": "e",
+    "pixels": [
+      1287,
+      958
+    ],
+    "size_match": true,
+    "pixel_identical": true
+  },
+  {
+    "panel": "f",
+    "pixels": [
+      2630,
+      1011
+    ],
+    "size_match": true,
+    "pixel_identical": true
+  },
+  {
+    "panel": "g",
+    "pixels": [
+      1287,
+      958
+    ],
+    "size_match": true,
+    "pixel_identical": true
+  },
+  {
+    "panel": "h",
+    "pixels": [
+      1127,
+      958
+    ],
+    "size_match": true,
+    "pixel_identical": true
+  },
+  {
+    "panel": "i",
+    "pixels": [
+      1247,
+      958
+    ],
+    "size_match": true,
+    "pixel_identical": true
+  },
+  {
+    "panel": "j",
+    "pixels": [
+      1297,
+      1229
+    ],
+    "size_match": true,
+    "pixel_identical": true
+  },
+  {
+    "panel": "k",
+    "pixels": [
+      1162,
+      1228
+    ],
+    "size_match": true,
+    "pixel_identical": true
+  },
+  {
+    "panel": "l",
+    "pixels": [
+      1281,
+      1303
+    ],
+    "size_match": true,
+    "pixel_identical": true
+  }
+]

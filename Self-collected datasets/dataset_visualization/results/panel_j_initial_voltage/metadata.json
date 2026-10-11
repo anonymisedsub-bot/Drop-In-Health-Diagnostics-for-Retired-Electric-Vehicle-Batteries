@@ -1,0 +1,129 @@
+{
+  "panel": "initial_voltage_violin_comparison",
+  "figure3_panel": "j",
+  "figure_files": [
+    {
+      "file": "panel_j_initial_voltage.png",
+      "sha256": "5d4a954adfeac9da679c75f86a9f7b1f79715d31ae2abefa76e804af7b7edc99"
+    }
+  ],
+  "width_mm": 84.0,
+  "height_mm": 52.8,
+  "png_dpi": 600,
+  "font_family": "Arial",
+  "font_size_pt": 9,
+  "axis_linewidth_pt": 0.4,
+  "quartile_levels": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "quartile_marks": "Q1/median/Q3 short horizontal bars",
+  "kde_bandwidth": "Scott",
+  "violin_style": {
+    "reference_group_background": "NMC_A/NMC_B",
+    "background_color": "#EBE1DF",
+    "violin_fills": [
+      "#745057",
+      "#845A64",
+      "#956A73",
+      "#F6F0EF",
+      "#F6F0EF"
+    ],
+    "violin_edge": "#60363D",
+    "violin_width": 0.52,
+    "quartile_marking": "three short horizontal lines"
+  },
+  "lfp_simulation": {
+    "seed": 999,
+    "parent_mean_V": 2.85,
+    "parent_std_V": 0.09999999999999994,
+    "sampling": "separate scalar rejection loops; RNG restarted with the same seed for each tail bound",
+    "acceptance": "Vinit > tail upper bound; no upper truncation",
+    "cohort_mat": "LFP dataset/dataset/LFP_data_processed.mat",
+    "cohort_sha256": "7c95928c620bf23c61456225fca8838a21951432b7ffe58ce75bd0d651b82d05"
+  },
+  "tight_crop": false,
+  "group_labels": [
+    "LFP dataset",
+    "Self-collected datasets"
+  ],
+  "group_label_y_mm": 9.5,
+  "group_label_to_xtick_clearance_pt": 3.799842519685035,
+  "minimum_text_canvas_clearance_pt": 1.7891437007874003,
+  "datasets": [
+    {
+      "label": "LFP 2.73 V",
+      "kind": "simulated",
+      "tail_upper_V": 2.73,
+      "n": 3511,
+      "minimum_V": 2.730165216446604,
+      "q1_V": 2.807188502374389,
+      "median_V": 2.864042449947473,
+      "q3_V": 2.925253496265105,
+      "maximum_V": 3.2336763317992845,
+      "source_file": "LFP dataset/dataset/LFP_data_processed.mat",
+      "source_sha256": "7c95928c620bf23c61456225fca8838a21951432b7ffe58ce75bd0d651b82d05",
+      "source_field": "scalar rejection sample, seed 999, Vinit > tail upper bound; no upper truncation"
+    },
+    {
+      "label": "LFP 2.75 V",
+      "kind": "simulated",
+      "tail_upper_V": 2.75,
+      "n": 3511,
+      "minimum_V": 2.7500504491400948,
+      "q1_V": 2.817068316615173,
+      "median_V": 2.8697202065716962,
+      "q3_V": 2.92950464607672,
+      "maximum_V": 3.2336763317992845,
+      "source_file": "LFP dataset/dataset/LFP_data_processed.mat",
+      "source_sha256": "7c95928c620bf23c61456225fca8838a21951432b7ffe58ce75bd0d651b82d05",
+      "source_field": "scalar rejection sample, seed 999, Vinit > tail upper bound; no upper truncation"
+    },
+    {
+      "label": "LFP 2.77 V",
+      "kind": "simulated",
+      "tail_upper_V": 2.77,
+      "n": 3511,
+      "minimum_V": 2.7701484222068458,
+      "q1_V": 2.8278915072372053,
+      "median_V": 2.8760745956780984,
+      "q3_V": 2.9349431607890866,
+      "maximum_V": 3.2336763317992845,
+      "source_file": "LFP dataset/dataset/LFP_data_processed.mat",
+      "source_sha256": "7c95928c620bf23c61456225fca8838a21951432b7ffe58ce75bd0d651b82d05",
+      "source_field": "scalar rejection sample, seed 999, Vinit > tail upper bound; no upper truncation"
+    },
+    {
+      "label": "NMC_A",
+      "kind": "measured",
+      "tail_upper_V": 3.3,
+      "n": 353,
+      "minimum_V": 3.305,
+      "q1_V": 3.62,
+      "median_V": 3.675,
+      "q3_V": 3.75,
+      "maximum_V": 3.88,
+      "source_file": "Self-collected datasets/dataset/NMC_A_data_processed.mat",
+      "source_sha256": "c87b8ca50809178597af222878b3c5e76692cc2f9e66a95d0d3daf89405e0e33",
+      "source_field": "highest finite processed_Vd_partial_mat voltage per cell"
+    },
+    {
+      "label": "NMC_B",
+      "kind": "measured",
+      "tail_upper_V": 3.2,
+      "n": 334,
+      "minimum_V": 3.225,
+      "q1_V": 3.37,
+      "median_V": 3.44,
+      "q3_V": 3.52875,
+      "maximum_V": 3.8200000000000003,
+      "source_file": "Self-collected datasets/dataset/NMC_B_data_processed.mat",
+      "source_sha256": "5b0baca80cffb9a85bd48918bf1da81f1a1839fcff12e02cf846e5b40fb36549",
+      "source_field": "highest finite processed_Vd_partial_mat voltage per cell"
+    }
+  ],
+  "caveat": "Three LFP conditions reuse the same 3511 processed cells but independently simulate Vinit for each tail bound; NMC_A/NMC_B initial voltages are measured de-energisation starts.",
+  "source_data_file": "source_data.csv",
+  "quartiles_file": "quartiles.csv"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "reviewed": "Figure_7_overview.png",
+  "panel_order": "abcdefghijkl",
+  "labels_units_layout": "readable",
+  "panel_pixel_comparison": "12/12 identical to manuscript source panels"
+}

@@ -1,0 +1,35 @@
+{
+  "cost_USD": {
+    "n_draws": 800000,
+    "n_valid": 800000,
+    "coverage": 1.0,
+    "fraction_all_comparators_positive": 1.0,
+    "minimum_absolute_saving_quantiles": [
+      209.2422479288449,
+      331.78103321432013,
+      685.4339629831874
+    ]
+  },
+  "energy_kWh": {
+    "n_draws": 800000,
+    "n_valid": 800000,
+    "coverage": 1.0,
+    "fraction_all_comparators_positive": 0.80880875,
+    "minimum_absolute_saving_quantiles": [
+      -3.5470845130449846,
+      5.250686773810315,
+      21.19046664263151
+    ]
+  },
+  "co2_kg": {
+    "n_draws": 800000,
+    "n_valid": 800000,
+    "coverage": 1.0,
+    "fraction_all_comparators_positive": 0.80880875,
+    "minimum_absolute_saving_quantiles": [
+      -1.9034502959747115,
+      1.8350029605989464,
+      13.286311369110093
+    ]
+  }
+}

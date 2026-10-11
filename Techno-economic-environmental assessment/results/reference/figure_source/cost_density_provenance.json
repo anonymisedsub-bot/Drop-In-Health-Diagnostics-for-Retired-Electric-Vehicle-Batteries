@@ -1,0 +1,64 @@
+{
+  "source_hashes": {
+    "draws.csv.gz": "24cba45e871f4240771e2443b6a0da865eadae7685186e84b16592dcf3212712",
+    "method_summary.csv": "c49f56659daf3397a0c4285e42a2df5ba7737df89f9dff6a9fc2c358b674078f",
+    "run_manifest.json": "6b2579d45d7dfe8897fc9218a84886284742c4cb2c06484752c203e7d928f389"
+  },
+  "caption_source_hashes": {
+    "summary.csv": "e31a20e133b2306e328a2fffc169f0e1523ee330ab5b81b33f0aba91cb48260c",
+    "method_summary.csv": "c49f56659daf3397a0c4285e42a2df5ba7737df89f9dff6a9fc2c358b674078f",
+    "sensitivity.csv": "5e95c237ff3a02bd18f25200438f971310ceb7f3aa91943e29bba78d3505253f",
+    "two_factor.csv": "c1e622a4b91615882b406fbeabf99ba196a3ebe5856059b5be6d946c6e820594",
+    "run_manifest.json": "6b2579d45d7dfe8897fc9218a84886284742c4cb2c06484752c203e7d928f389"
+  },
+  "n_draws_per_method": 800000,
+  "primary_seed": 20260921,
+  "n_free_inputs": 16,
+  "bin_count": 160,
+  "bin_space": "log10",
+  "shared_edges": true,
+  "log_bin_edges": [
+    1.651760109819088,
+    3.8460839835046237
+  ],
+  "smoothing": {
+    "sigma_bins": 1.0,
+    "mode": "reflect",
+    "truncate": 4.0
+  },
+  "quantile_method": "linear",
+  "all_cost_quantiles_reproduced": true,
+  "cost_scenario_order": [
+    "proposed_no_targeted_rpt",
+    "proposed",
+    "pulse",
+    "eis",
+    "partial_charge",
+    "rpt"
+  ],
+  "no_targeted_rpt_cost_column": "data_cost_USD",
+  "no_targeted_rpt_summary_sha256": "0658ecab79a7876bc2256dc6112f03e46ecb3ec5bc951715934c85e811445e05",
+  "draw_ids_verified": "Each method has every integer draw_id from 0 through 799999 exactly once",
+  "density_sha256": "8b3a59658857d3e589874dee0433f6506a7b0c0adc44e3c0ed1878cda44b7309",
+  "caption_sha256": "5b842d25ab0207f23aaa82e2ed91f198c63162ad73585eb8afb8154eff846d8f",
+  "response_scale": {
+    "minimum_pct": 29.551718260529256,
+    "maximum_pct": 90.32839173608924,
+    "vmin": 25.0,
+    "vmax": 95.0,
+    "original_limits": [
+      35,
+      95
+    ],
+    "default_variant_limits": [
+      30,
+      95
+    ]
+  },
+  "builder_sha256": "22507a9682385786fa1e8b5234590c40f5aac3b5a09b0cdfe1c58e3e36f91d65",
+  "python_executable": "C:\\envs\\venv1\\Scripts\\python.exe",
+  "numpy_version": "2.1.0",
+  "pandas_version": "2.3.2",
+  "scipy_version": "1.16.2",
+  "caption_text_scope": "Public documentation wording; density cache values and method definitions unchanged."
+}

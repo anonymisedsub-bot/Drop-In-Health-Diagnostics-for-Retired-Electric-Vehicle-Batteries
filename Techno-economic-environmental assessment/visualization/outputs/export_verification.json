@@ -1,0 +1,206 @@
+{
+  "passed": true,
+  "raw_draws_verified": false,
+  "panel_count": 12,
+  "shared_asset_count": 6,
+  "assets": {
+    "a": {
+      "size_mm": [
+        232.00000000000003,
+        61.90555555555555
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "b": {
+      "size_mm": [
+        109.28930555555557,
+        48.077500000000015
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "c": {
+      "size_mm": [
+        100.14180555555554,
+        48.077500000000015
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "d": {
+      "size_mm": [
+        80.98930555555557,
+        43.40038888888888
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "e": {
+      "size_mm": [
+        53.252986111111106,
+        43.40038888888888
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "f": {
+      "size_mm": [
+        50.21229166666662,
+        43.40038888888888
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "g": {
+      "size_mm": [
+        63.646805555555545,
+        41.82333333333331
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "h": {
+      "size_mm": [
+        56.56569444444445,
+        39.81805555555551
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "i": {
+      "size_mm": [
+        56.565694444444446,
+        39.81805555555551
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "j": {
+      "size_mm": [
+        56.51847222222222,
+        65.49916666666667
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "k": {
+      "size_mm": [
+        59.50180555555551,
+        65.49916666666664
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "l": {
+      "size_mm": [
+        56.51847222222223,
+        65.49916666666667
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "legend_methods": {
+      "size_mm": [
+        156.20597222222221,
+        10.349999999999993
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "colorbar_reductions": {
+      "size_mm": [
+        19.852499999999978,
+        45.50222222222224
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "colorbar_response": {
+      "size_mm": [
+        17.393333333333345,
+        53.386666666666684
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "monte_carlo_note": {
+      "size_mm": [
+        116.76541666666667,
+        11.309555555555518
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "legend_cost_methods": {
+      "size_mm": [
+        145.72847222222222,
+        15.588749999999965
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    },
+    "legend_mc_statistics": {
+      "size_mm": [
+        83.62194444444444,
+        10.349999999999993
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "passed": true
+    }
+  },
+  "accessories_in_panels": true,
+  "colour_bar_labels_verified": true,
+  "method_order_verified": true,
+  "method_order": [
+    "Proposed+targeted RPTs",
+    "Pulse-based",
+    "EIS-based",
+    "Partial-charge-based",
+    "RPT-based"
+  ],
+  "export_format": "png",
+  "original_physical_scale": true,
+  "png_dpi": 300,
+  "source_data_unchanged": true,
+  "historical_dependencies": false,
+  "text_check_basis": "Source Matplotlib artists, not OCR of PNG pixels",
+  "raster_checks": "PNG hashes, DPI, physical size, nonblank content and white edge pixels",
+  "agent_visual_review_performed": false
+}

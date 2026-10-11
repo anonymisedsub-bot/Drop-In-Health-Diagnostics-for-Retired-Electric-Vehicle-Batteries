@@ -1,0 +1,79 @@
+[
+  {
+    "dataset_batch": 3,
+    "seed": 2,
+    "round_number": 1,
+    "labelled_fraction": 0.14285714285714285,
+    "labelled_count": 30,
+    "unlabelled_count": 180,
+    "MAPE": 2.517698146402836,
+    "RMSPE": 4.1274432092905045,
+    "R2": -0.36492300033569336
+  },
+  {
+    "dataset_batch": 3,
+    "seed": 2,
+    "round_number": 2,
+    "labelled_fraction": 0.2857142857142857,
+    "labelled_count": 60,
+    "unlabelled_count": 150,
+    "MAPE": 2.121998928487301,
+    "RMSPE": 2.7709776535630226,
+    "R2": 0.32890647649765015
+  },
+  {
+    "dataset_batch": 3,
+    "seed": 2,
+    "round_number": 3,
+    "labelled_fraction": 0.42857142857142855,
+    "labelled_count": 90,
+    "unlabelled_count": 120,
+    "MAPE": 1.883123442530632,
+    "RMSPE": 2.6194415986537933,
+    "R2": 0.4106004238128662
+  },
+  {
+    "dataset_batch": 3,
+    "seed": 2,
+    "round_number": 4,
+    "labelled_fraction": 0.5714285714285714,
+    "labelled_count": 120,
+    "unlabelled_count": 90,
+    "MAPE": 1.9852673634886742,
+    "RMSPE": 2.597351558506489,
+    "R2": 0.4099390506744385
+  },
+  {
+    "dataset_batch": 3,
+    "seed": 2,
+    "round_number": 5,
+    "labelled_fraction": 0.7142857142857143,
+    "labelled_count": 150,
+    "unlabelled_count": 60,
+    "MAPE": 1.730024442076683,
+    "RMSPE": 2.3227060213685036,
+    "R2": 0.534095823764801
+  },
+  {
+    "dataset_batch": 3,
+    "seed": 2,
+    "round_number": 6,
+    "labelled_fraction": 0.8571428571428571,
+    "labelled_count": 180,
+    "unlabelled_count": 30,
+    "MAPE": 1.7529085278511047,
+    "RMSPE": 2.310708537697792,
+    "R2": 0.5313946604728699
+  },
+  {
+    "dataset_batch": 3,
+    "seed": 2,
+    "round_number": 7,
+    "labelled_fraction": 1.0,
+    "labelled_count": 210,
+    "unlabelled_count": 0,
+    "MAPE": 1.6954133287072182,
+    "RMSPE": 2.2256027907133102,
+    "R2": 0.5812932848930359
+  }
+]

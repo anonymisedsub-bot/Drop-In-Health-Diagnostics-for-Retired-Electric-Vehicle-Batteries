@@ -1,0 +1,38 @@
+{
+  "summary.csv": {
+    "path": "../reference/summary.csv",
+    "sha256": "e31a20e133b2306e328a2fffc169f0e1523ee330ab5b81b33f0aba91cb48260c"
+  },
+  "method_summary.csv": {
+    "path": "../reference/method_summary.csv",
+    "sha256": "c49f56659daf3397a0c4285e42a2df5ba7737df89f9dff6a9fc2c358b674078f"
+  },
+  "sensitivity.csv": {
+    "path": "../reference/sensitivity.csv",
+    "sha256": "5e95c237ff3a02bd18f25200438f971310ceb7f3aa91943e29bba78d3505253f"
+  },
+  "two_factor.csv": {
+    "path": "../reference/two_factor.csv",
+    "sha256": "c1e622a4b91615882b406fbeabf99ba196a3ebe5856059b5be6d946c6e820594"
+  },
+  "run_manifest.json": {
+    "path": "../reference/run_manifest.json",
+    "sha256": "6b2579d45d7dfe8897fc9218a84886284742c4cb2c06484752c203e7d928f389"
+  },
+  "baseline_method_summary.csv": {
+    "path": "../baseline/method_summary.csv",
+    "sha256": "0658ecab79a7876bc2256dc6112f03e46ecb3ec5bc951715934c85e811445e05"
+  },
+  "cost_density.csv": {
+    "path": "../reference/figure_source/cost_density.csv",
+    "sha256": "8b3a59658857d3e589874dee0433f6506a7b0c0adc44e3c0ed1878cda44b7309"
+  },
+  "cost_density_provenance.json": {
+    "path": "../reference/figure_source/cost_density_provenance.json",
+    "sha256": "ab9d4e6b1991d9631ce614d22ac3080dda05586245a749d8eeafb1274f1c14c4"
+  },
+  "figure_caption.md": {
+    "path": "../reference/figure_source/figure_caption.md",
+    "sha256": "5b842d25ab0207f23aaa82e2ed91f198c63162ad73585eb8afb8154eff846d8f"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dataset": "LFP dataset",
+  "category": "segmented-curves",
+  "notebook": "Complete and segmented discharge curves/combined_2_plus_2_plot.ipynb",
+  "notebook_sha256": "821e2530b3e0817a78d2fb08eadaee44ec1acaa1e39307ee67f6f0f4aee80585",
+  "datasets": {
+    "LFP_data_processed.mat": {
+      "path": "..\\dataset\\LFP_data_processed.mat",
+      "sha256": "7c95928c620bf23c61456225fca8838a21951432b7ffe58ce75bd0d651b82d05"
+    }
+  },
+  "figures": [
+    {
+      "path": "..\\outputs\\segmented-curves\\combined_2x2_tail_boundary_swapped_Vtail_2.73.png",
+      "sha256": "8d3fa8647976ce85aef53094185e1c90d8147ff17b91758b64c1bccfb57a8ec4",
+      "dpi": 300,
+      "figsize_inches": [
+        16.0,
+        10.0
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "path": "segmented-curves\\simulated_initial_voltage.csv",
+      "sha256": "3cd6298aa83e49f08137c6c36a83d097f3aeadf4c8a902532cd4f6fe1cb96824",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "simulated_initial_voltage_V"
+      ]
+    },
+    {
+      "path": "segmented-curves\\fragment_availability.csv",
+      "sha256": "41b1b6d0f2e9145a8ea26f6340826b1a306ecff3b3658b336c11a2102e47fbb4",
+      "rows": 7,
+      "columns": [
+        "fragment",
+        "cell_count"
+      ]
+    },
+    {
+      "path": "segmented-curves\\sampling_normal_pdf.csv",
+      "sha256": "bcd9815336f4ba996d615146a12f16ad7ea74d65602f8f30dc9af7878e941769",
+      "rows": 600,
+      "columns": [
+        "voltage_V",
+        "density_per_V"
+      ]
+    }
+  ],
+  "versions": {
+    "numpy": "2.1.3",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.1",
+    "scikit_learn": "1.6.1"
+  },
+  "interpretation": "Descriptive dataset analysis; no trained model is used. See README for sampling and SOC definitions."
+}

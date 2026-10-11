@@ -1,0 +1,72 @@
+{
+  "dataset": "LFP dataset",
+  "category": "capacity",
+  "notebook": "Capacity distribution/plot.ipynb",
+  "notebook_sha256": "d714883be77121116f5216a471da241589343673a00be6df0daa4a69f0f178b9",
+  "datasets": {
+    "LFP_data_processed.mat": {
+      "path": "..\\dataset\\LFP_data_processed.mat",
+      "sha256": "7c95928c620bf23c61456225fca8838a21951432b7ffe58ce75bd0d651b82d05"
+    }
+  },
+  "figures": [
+    {
+      "path": "..\\outputs\\capacity\\cap_distribution.png",
+      "sha256": "3d26ce27316a326f7397592ff0e6da2ee56939b63a07010ce0896138601a51c3",
+      "dpi": 300,
+      "figsize_inches": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\capacity\\soh_distribution.png",
+      "sha256": "0f2ad65f4e0a210349489241c4913f6b6a6f9969b4707586cf3680c29478daae",
+      "dpi": 300,
+      "figsize_inches": [
+        8.0,
+        5.0
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "path": "capacity\\cell_capacity_soh.csv",
+      "sha256": "9a675a7d939a04129558a61245d242b142c226d2647fd726153b20c0459df346",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "SOH_percent"
+      ]
+    },
+    {
+      "path": "capacity\\capacity_histogram.csv",
+      "sha256": "51052343872c09790c47091bc98b8dfd41ba4e40b98db59dc2ea58d69e3b1da9",
+      "rows": 16,
+      "columns": [
+        "left_Ah",
+        "right_Ah",
+        "cell_count",
+        "intra_bin_sample_SD_Ah"
+      ]
+    },
+    {
+      "path": "capacity\\soh_distribution.csv",
+      "sha256": "bd0430087a20149809812e8ad4630085331f5c5c85ae58cd24ef213041097677",
+      "rows": 14,
+      "columns": [
+        "SOH_bin",
+        "cell_count",
+        "percentage"
+      ]
+    }
+  ],
+  "versions": {
+    "numpy": "2.1.3",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.1",
+    "scikit_learn": "1.6.1"
+  },
+  "interpretation": "Descriptive dataset analysis; no trained model is used. See README for sampling and SOC definitions."
+}

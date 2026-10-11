@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "status": "targeted_deployment_rpt_variant",
+  "targeted_rpt": {"fraction_parameter":"deployment_rpt_fraction","reference_fraction":0.04,"bounds":[0.03,0.05],"denominator":"deployment_pool","cycle_start_soc":0,"timing":"after_deenergisation_prediction","independent_seed_sequence_tag":20260926,"selected_retention_assumption":"same representative r as batch","original_directory_preserved":true},
+  "registry_file": "03_parameter_registry.json",
+  "methods": ["proposed", "pulse", "eis", "partial_charge", "rpt"],
+  "comparators": ["partial_charge", "rpt", "pulse", "eis"],
+  "primary_question": "Under which stated parameter and workflow assumptions does the proposed method reduce incremental diagnostic cost, grid electricity and electricity-related CO2?",
+  "baselines": [
+    {"id":"B0_legacy_snapshot","purpose":"Reproduce the submitted static result table","uses_rounded_inputs":true,"expected_cost_USD_per_tonne":{"proposed":289.575,"pulse":1533.4725,"eis":2023.22,"partial_charge":817.415,"rpt":1355.495}},
+    {"id":"B1_harmonised_boundary","purpose":"Isolate baseline-discharge subtraction and precision changes under the frozen original reference inputs, not the revised B2 SOC","uses_rounded_inputs":false,"charge_efficiency":1.0,"equipment_rate_USD_per_channel_h":0.012,"auxiliary_power_channel_kW":0.0,
+      "reference_inputs": {
+        "functional_mass_g":1000000,"cell_mass_g":47.5,"nominal_capacity_Ah":2.6,"nominal_voltage_V":3.7,
+        "retention":0.8,"initial_soc":0.6,"label_fraction":0.15,"full_charge_time_h":1.5,"discharge_C_rate":1.0,
+        "rpt_rest_time_h":0.16666666666666666,"multi_soc_relaxation_h":1.0,"soc_point_count":5,"charge_efficiency":1.0,
+        "electricity_price":0.1,"labour_wage":30.0,"testers_per_operator":10.0,"channels_per_tester":64,"tester_count":10,
+        "tester_purchase_price":50000.0,"installation_fraction":0.3,"equipment_life_years":12.0,"annual_utilisation":0.9,
+        "equipment_overhead_fraction":0.08,"grid_intensity":0.48,"carbon_price":25.0,"auxiliary_power_channel_kW":0.0,
+        "rest_channel_occupancy_fraction":1.0,"pulse_deployment_time_h":0.03333333333333333,"eis_deployment_time_h":0.08333333333333333,
+        "partial_charge_soc_increment":0.25,"pulse_soc_conditioning_time_h":0.1,"pulse_final_soc":0.5,
+        "eis_soc_conditioning_time_h":0.15,"eis_dataset_measurement_time_h":0.25,"partial_charge_time_h":0.25,"partial_discharge_extra_time_h":0.25
+      },
+      "expected_formula_audit_cost_USD_per_tonne":{"proposed":203.122992,"pulse":1441.5443221052633,"eis":1935.9436298947367,"partial_charge":733.7554088421052,"rpt":1354.15328}},
+    {"id":"B2_explicit_model","purpose":"Use confirmed protocol and explicit energy/cost inputs for sensitivity and MC","numeric_result_available":true,"expected_changes":"The current B2 reference SOC is 0.4; B0/B1 retain original SOC 0.6. Report this state change, efficiency and derived equipment-rate changes separately from uncertainty propagation."}
+  ],
+  "reference_label_scenarios": [
+    {"id":"batch_labels_065","label_fraction":0.065,"same_label_fraction_for_all_learning_methods":true,"interpretation":"Hypothetical transfer of the rounded experimental training-pool ratio to a one-tonne batch; not a demonstrated industrial requirement."},
+    {"id":"batch_labels_150","label_fraction":0.15,"same_label_fraction_for_all_learning_methods":true,"interpretation":"Original higher batch labelling budget; not an empirically validated domain-shift safety margin."}
+  ],
+  "secondary_label_fractions": [0.05,0.06454545454545454,0.10,0.20,0.30],
+  "physical_model": {
+    "status": "implemented_user_defined_approximation_with_original_fixed_conditioning_times",
+    "capacity_and_energy_retention_share_one_parameter": true,
+    "soc_definition": "Representative arrival SOC relative to the remaining usable capacity; not a fitted within-batch distribution.",
+    "fixed_full_charge_time_h": 1.5,
+    "fixed_discharge_C_rate": 1.0,
+    "C_rate_reference": "Nominal capacity; full discharge time therefore scales with retention.",
+    "full_charge_time_rationale": "Approximate CC shortening and CV lengthening as compensating with ageing; this is a user-specified simplification, not a universal empirical law.",
+    "expressions": {
+      "retention_capacity": "retention",
+      "retention_energy": "retention",
+      "deployment_fraction": "1 - label_fraction",
+      "cell_energy_Wh": "nominal_voltage_V * nominal_capacity_Ah * retention",
+      "arrival_charge_stored_Wh": "(1 - initial_soc) * cell_energy_Wh",
+      "arrival_charge_grid_Wh": "arrival_charge_stored_Wh / charge_efficiency",
+      "empty_to_full_charge_time_h": "full_charge_time_h",
+      "arrival_charge_time_h": "(1 - initial_soc) * full_charge_time_h",
+      "arrival_deenergisation_time_h": "initial_soc * retention / discharge_C_rate",
+      "full_discharge_time_h": "retention / discharge_C_rate",
+      "label_gross_time_h": "arrival_charge_time_h + rpt_rest_time_h + full_discharge_time_h",
+      "label_incremental_time_h": "label_gross_time_h - arrival_deenergisation_time_h"
+    },
+    "efficiency_rule": "Apply charge efficiency only to charging grid energy; do not multiply charge duration by retention or divide time by efficiency.",
+    "baseline_rule": "Keep original B0/B1 snapshots; in B2 subtract the same initial-state de-energisation baseline for every method."
+  },
+  "one_at_a_time": {
+    "points_per_parameter": 21,
+    "base_model": "B2_explicit_model",
+    "parameters": ["retention","initial_soc","label_fraction"],
+    "ranges": {
+      "retention": {"low":0.6,"base":0.8,"high":0.9},
+      "initial_soc": {"low":0.2,"base":0.4,"high":0.6},
+      "label_fraction": {"low":0.05,"base":0.15,"high":0.30}
+    },
+    "include_reference_values": {"retention":[0.8],"initial_soc":[0.4],"label_fraction":[0.065,0.15]},
+    "grid_rule": "Use 21 equally spaced points plus any reference values not already present; do not round away the 6.5% marker.",
+    "repeat_parameters_for_reference_label_scenarios": ["retention","initial_soc"],
+    "label_fraction_sweep_runs": 1,
+    "fixed_input_rule": "All other free inputs use registry proposal_base, otherwise fixed value. Do not randomly draw wage, tariff, charge efficiency, equipment or other inputs in deterministic sensitivity analysis; derived quantities are always recalculated.",
+    "derived_parameter_rule": "Recalculate every dependency; never independently perturb equipment_rate while also varying its drivers."
+  },
+  "two_factor_grids": [
+    {"id":"label_soc","x":{"parameter":"label_fraction","low":0.05,"high":0.30,"points":51},"y":{"parameter":"initial_soc","low":0.20,"high":0.60,"points":51},"purpose":"Locate budget/SOC sensitivity over the revised 0.2-0.6 range, entirely below the partial-charge SOC limit of 0.75."},
+    {"id":"retention_soc","x":{"parameter":"retention","low":0.6,"high":0.9,"points":51},"y":{"parameter":"initial_soc","low":0.2,"high":0.6,"points":51},"repeat_for_reference_label_scenarios":true,"purpose":"Joint response of battery state variables at fixed operating and economic inputs."},
+    {"id":"label_retention","x":{"parameter":"label_fraction","low":0.05,"high":0.30,"points":51},"y":{"parameter":"retention","low":0.6,"high":0.9,"points":51},"purpose":"Joint response of labelling budget and retention at arrival SOC 0.4 and other fixed inputs."}
+  ],
+  "protocol_applicability": {
+    "applies_to": ["one_at_a_time","two_factor_grids","monte_carlo","structural_scenarios"],
+    "partial_charge_rule": "initial_soc + partial_charge_soc_increment <= 1, plus required feature-window availability",
+    "inapplicable_method_policy": "Preserve the draw and all feasible method outputs; mark only the inapplicable method and its paired savings unavailable. Never substitute zero, clip SOC or resample away the infeasible region.",
+    "paired_summary_domain": "Use draw IDs where both paired methods are feasible; report the valid count, original draw count, applicability fraction and conditional domain. Other comparators retain their own feasible domains.",
+    "all_comparator_summary_domain": "Use the common feasible intersection and disclose its coverage. Do not interpret protocol inapplicability as a win, a loss or a full-domain economic result."
+  },
+  "monte_carlo": {
+    "scenario_id": "joint_uncertainty_with_random_label_fraction",
+    "preferred_sampler": "independent_pseudorandom_with_documented_marginals",
+    "optional_sampler": "scipy.stats.qmc.LatinHypercube_with_documented_inverse_CDF_mapping",
+    "primary_draws": 800000,
+    "seeds": [20260921],
+    "sampled_parameters": ["cell_mass_g","retention","initial_soc","label_fraction","charge_efficiency","electricity_price","labour_wage","testers_per_operator","tester_purchase_price","installation_fraction","equipment_life_years","annual_utilisation","equipment_overhead_fraction","grid_intensity","carbon_price","deployment_rpt_fraction"],
+    "execution_rule": "Exactly max_draws with one main seed; no convergence thresholds; preserve original 15 streams and independently append q.",
+    "marginal_distribution_rule": "Use 16 triangular distributions, including deployment_rpt_fraction; the uniform repeat is a separately labelled distribution-shape check over the same bounds.",
+    "fixed_protocol_parameters": ["full_charge_time_h","rpt_rest_time_h","multi_soc_relaxation_h","discharge_C_rate"],
+    "shared_across_methods": true,
+    "sample_label_fraction": true,
+    "label_fraction_policy": "Sample p from triangular (0.05,0.15,0.30) in each joint draw and share it across all learning methods; deployment fraction is derived as 1-p. The 6.5% and 15% fixed values remain deterministic sensitivity references, not separate primary Monte Carlo runs. Full-batch RPT remains independent of p.",
+    "sample_structural_scenario_weights": false,
+    "within_batch_cell_sampling": "Optional separate layer; do not conflate cell heterogeneity with uncertainty in the batch mean.",
+    "regional_correlation_policy": "Exploratory factor envelope assumes the listed free drivers independent; publish this assumption. Prefer sourced coherent regional blocks when claiming regional applicability.",
+    "invalid_draw_policy": "Record reasons by method and preserve the original draw matrix. Exclude a draw only from comparisons involving an inapplicable method; truly invalid shared inputs invalidate all affected outputs. Follow protocol_applicability, report conditional coverage and never clip an impossible SOC trajectory silently.",
+    "distribution_shape_check": "Repeat triangular marginals as uniform over identical bounds and report material changes.",
+    "interval_label": "95% simulation uncertainty interval conditional on stated assumptions",
+    "quantiles": [0.025,0.5,0.975]
+  },
+  "structural_scenario_execution": {
+    "enabled_in_current_analysis": false,
+    "reason": "Future candidates only; deterministic sensitivity has three drivers with q fixed at 0.04, and Monte Carlo has 16 triangular inputs. Protocol applicability remains checked."
+  },
+  "structural_scenarios": [
+    {"id":"normalisation","variants":["one_tonne_equivalent_18650","per_1000_equivalent_cells"],"additional_cell_formats":"Only add when mass, capacity, voltage and compatible protocol are all available; do not vary mass alone to represent an IFR32135."},
+    {"id":"maintenance_definition","variants":["amortisation_rate_uplift","annual_fraction_of_purchase_price"],"rule":"Do not combine both charges for the same maintenance item."},
+    {"id":"resource_organisation","variants":["all_rest_on_tester","separate_rest_station"],"rule":"Moving rest off a tester requires rack and handling accounting or an explicit omission; do not equate off-tester with free."},
+    {"id":"auxiliary_energy","power_per_channel_kW":[0.0,0.001,0.005],"evidence_status":"analyst_exploratory","rule":"Apply gross and baseline energy consistently; zero is an exclusion scenario, not measured zero."},
+    {"id":"soc_stress","initial_soc_values":[0.05,0.10,0.80,0.90,0.95],"rule":"These optional stress values lie outside the current core SOC range 0.2-0.6 and are not executed in the main analysis. Check protocol applicability at every value and mark the fixed 0.25 partial-charge increment inapplicable above 0.75. Do not silently cap SOC."},
+    {"id":"training_reuse","cumulative_throughput_tonnes":[1,10,100,1000],"rule":"Require explicit fixed initial labels, validation labels and relabelling policy; no automatic claim that 142 labels generalise across all batches."}
+  ],
+  "summary_metrics": [
+    "total_cost_USD_per_tonne",
+    "grid_energy_kWh_per_tonne",
+    "electricity_related_CO2_kg_per_tonne",
+    "absolute_cost_saving_USD_per_tonne",
+    "relative_cost_reduction_percent",
+    "absolute_energy_saving_kWh_per_tonne",
+    "relative_energy_reduction_percent",
+    "absolute_CO2_saving_kg_per_tonne",
+    "relative_CO2_reduction_percent",
+    "conditional_fraction_with_negative_saving",
+    "conditional_fraction_with_joint_positive_saving_against_all_comparators",
+    "method_and_pair_applicability_fraction",
+    "all_comparator_common_applicability_fraction"
+  ],
+  "reporting_rules": {
+    "budget_interpretation": "Primary Monte Carlo intervals include uncertainty in the sampled labelling budget and must not be labelled as conditional results at fixed p=0.065 or p=0.15. Those values are reference points in deterministic sensitivity analysis.",
+    "pairing": "Calculate savings and ratios within each draw before taking quantiles; use the feasible domains and coverage reporting defined in protocol_applicability.",
+    "zero_denominator": "For comparator <= 0, mark relative reduction unavailable and retain the absolute difference.",
+    "negative_saving": "Preserve negative values and the fraction of such draws.",
+    "joint_claim": "For an across-all-comparators lower-bound claim, use the per-draw minimum or the explicit joint event; marginal intervals do not establish a simultaneous guarantee.",
+    "degenerate_relative_interval": "Report analytic constancy when common factors cancel; do not add artificial independent method noise.",
+    "structural_envelope": "Label as scenario range, not a 95% probability interval unless scenario probabilities are justified.",
+    "rounding": "Retain full precision in machine-readable outputs; display approximately whole USD and one decimal for kWh, kg CO2 and percent when convergence and input evidence support it.",
+    "no_premature_claim": "Do not replace the abstract with fabricated intervals or state that sensitivity analysis has been completed before execution."
+  },
+  "quality_checks": [
+    "Five B0 totals match the original workbook snapshot within 1e-8 USD.",
+    "Same cells, initial state and terminal state in diagnostic and common-baseline ledgers.",
+    "At q=0 proposed cost equals p times RPT cost; at q>0 add the full post-deenergisation RPT cycle.",
+    "At p=0,q>0 deployment RPT still incurs a positive burden; at p=1 proposed and RPT match because the deployment pool is empty.",
+    "Doubling the functional mass doubles additive burdens without changing percentage reductions in the linear model.",
+    "Shared grid intensity makes relative CO2 reduction equal relative grid-energy reduction when it is the sole emission source.",
+    "Equipment rate is derived from its drivers and is not an additional independent random input.",
+    "Deterministic sensitivity varies retention, initial_soc and label_fraction with q fixed at 0.04; Monte Carlo samples 16 independent triangular inputs, including p and q.",
+    "Charge efficiency uses triangular (0.85,0.90,0.95), equivalent cell mass uses (45,47.5,50) g and labelling fraction uses (0.05,0.15,0.30); p=0.065 and p=0.15 remain explicit sensitivity markers.",
+    "Full charge from empty is fixed at 1.5 h, RPT rest at 10 min and multi-SOC relaxation at 1 h in both analyses; arrival charge time depends on SOC but not retention.",
+    "Capacity and energy retention are the same variable; deployment_fraction is exactly 1-label_fraction, not an independent draw.",
+    "Same seed and frozen configuration reproduce the draw matrix and summaries.",
+    "Reported percentiles are computed from paired differences or ratios, not differences of marginal percentiles.",
+    "Parameter ranges, distribution shapes and structural exclusions retain their evidence labels.",
+    "Initial SOC uses triangular (0.2, 0.4, 0.6) with B2 reference 0.4; retention uses triangular (0.6, 0.8, 0.9), and the SOC grid spans 0.2-0.6. B0/B1 reference inputs remain frozen at original SOC 0.6.",
+    "Annual utilisation uses triangular (0.85, 0.90, 0.95); the upper-bound extension is labelled exploratory, and the uniform shape check uses the same 0.85-0.95 bounds.",
+    "For the fixed 0.25 partial-charge increment, SOC 0.75 satisfies the upper-SOC constraint and SOC 0.80 does not; failure does not discard other feasible methods or count as zero cost.",
+    "Training-pool, additional-pool-use and TEA-batch denominators are never conflated."
+  ],
+  "planned_output_files": [
+    "outputs/baseline_reconciliation.json",
+    "outputs/parameter_draws.csv.gz",
+    "outputs/draws.csv.gz",
+    "outputs/paired_savings.csv.gz",
+    "outputs/summary.csv",
+    "outputs/sensitivity.csv",
+    "outputs/targeted_rpt_summary.csv",
+    "outputs/old_new_summary.csv",
+    "outputs/q_reference_scenarios.csv",
+    "outputs/run_manifest.json"
+  ]
+}

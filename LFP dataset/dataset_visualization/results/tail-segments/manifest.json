@@ -1,0 +1,105 @@
+{
+  "dataset": "LFP dataset",
+  "category": "tail-segments",
+  "notebook": "Tail+segment plot/plot.ipynb",
+  "notebook_sha256": "6fd624bf01f8b18ca89e22e4adbddd293470acd85b4a6ad99bfa6e8f0a4bfe1d",
+  "datasets": {
+    "LFP_data_processed.mat": {
+      "path": "..\\dataset\\LFP_data_processed.mat",
+      "sha256": "7c95928c620bf23c61456225fca8838a21951432b7ffe58ce75bd0d651b82d05"
+    }
+  },
+  "figures": [
+    {
+      "path": "..\\outputs\\tail-segments\\fig1_tail_curve_2.50_2.73.png",
+      "sha256": "cea21af2ce86b3e18ce8eaa1b186abb3b80bdec3e0f89160ba411bbab60076b6",
+      "dpi": 300,
+      "figsize_inches": [
+        4.0,
+        6.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-segments\\fig2_upstream_segment_1.png",
+      "sha256": "c4383480f6d1175987bb28d4bba5da020064cc20eec85b8cce40978d4f57a03e",
+      "dpi": 300,
+      "figsize_inches": [
+        6.0,
+        2.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-segments\\fig2_upstream_segment_2.png",
+      "sha256": "4bec2ea82d8a236eda9f18f1b8d9756cf2cacc8c87cd78471fb6735850a61f65",
+      "dpi": 300,
+      "figsize_inches": [
+        6.0,
+        2.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-segments\\fig2_upstream_segment_3.png",
+      "sha256": "56e51db7f4af93db3d705325eda68c4e43011577fb21af73b01b7ad6ae035d91",
+      "dpi": 300,
+      "figsize_inches": [
+        6.0,
+        2.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-segments\\fig2_upstream_segment_4.png",
+      "sha256": "d9770993e69e61c431f41cfe669dd321c905dd88ec707737ed5fae60e832ef3d",
+      "dpi": 300,
+      "figsize_inches": [
+        6.0,
+        2.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-segments\\fig2_upstream_segment_5.png",
+      "sha256": "2ad9bbda595c79f225ab04a4fd739b03f825a6a82e03aaaf7551a6d0f8a2c9e5",
+      "dpi": 300,
+      "figsize_inches": [
+        6.0,
+        2.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-segments\\fig2_upstream_segment_6.png",
+      "sha256": "1ed0e6fe9cd0bfb1ad81e927f759c70b5d4b35e7442bde29b715e15367a7cbce",
+      "dpi": 300,
+      "figsize_inches": [
+        6.0,
+        2.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-segments\\fig3_standalone_colorbar.png",
+      "sha256": "1ece4c7482714a2520d0d6334dea640e8581f4222ad3b05a6935a4e4762310b7",
+      "dpi": 300,
+      "figsize_inches": [
+        5.0,
+        1.0
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "path": "tail-segments\\voltage_windows.csv",
+      "sha256": "0b4bb65cd7361efd4ff7e640002b297454ff7b126753277f8972d83bf8867429",
+      "rows": 7,
+      "columns": [
+        "fragment",
+        "lower_V",
+        "upper_V"
+      ]
+    }
+  ],
+  "versions": {
+    "numpy": "2.1.3",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.1",
+    "scikit_learn": "1.6.1"
+  },
+  "interpretation": "Descriptive dataset analysis; no trained model is used. See README for sampling and SOC definitions."
+}

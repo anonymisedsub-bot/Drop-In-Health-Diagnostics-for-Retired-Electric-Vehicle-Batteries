@@ -1,0 +1,45 @@
+{
+  "panel": "partial_discharge",
+  "dataset": "NMC_B",
+  "figure3_panel": "k",
+  "figure_files": [
+    {
+      "file": "panel_k_NMC_B.png",
+      "sha256": "ab5d1338f8fa6c00c48e4440351a2c80f99f435670fa4f6b08970b4a07b5d816"
+    }
+  ],
+  "source_batch": 6,
+  "n_cells": 334,
+  "input_file": "NMC_B_data_processed.mat",
+  "input_sha256": "5b0baca80cffb9a85bd48918bf1da81f1a1839fcff12e02cf846e5b40fb36549",
+  "width_mm": 42.0,
+  "height_mm": 52.8,
+  "png_dpi": 600,
+  "font_family": "Arial",
+  "font_size_pt": 9,
+  "minimum_text_canvas_clearance_pt": 0.5929232283464613,
+  "nearest_text_to_canvas": "Remaining capacity (Ah)",
+  "axis_linewidth_pt": 0.4,
+  "tight_crop": false,
+  "source_data_file": "source_data.npz",
+  "discharge_stage": "partial (~1C)",
+  "matrix_fields": [
+    "processed_Vd_partial_mat",
+    "processed_Qd_partial_mat"
+  ],
+  "capacity_color_limits_Ah": [
+    1.98040187,
+    2.57006
+  ],
+  "colorbar_label": "Maximum capacity (Ah)",
+  "colormap_anchors": [
+    "#313695",
+    "#74add1",
+    "#e0f3f8",
+    "#fee090",
+    "#f46d43",
+    "#a50026"
+  ],
+  "curve_alpha": 0.9,
+  "additional_smoothing": false
+}

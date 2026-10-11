@@ -1,0 +1,233 @@
+{
+  "schema": "nmc-two-sheet-reconstruction-v2",
+  "scope": "Eight available fields from the frozen selected cohort; historical screening is documented in raw/provenance.",
+  "raw_sheets": [
+    "DisC",
+    "DisCC2"
+  ],
+  "not_reconstructed": [
+    "processed_IC_full_mat"
+  ],
+  "not_reconstructed_reason": "processed_IC_full_mat requires the unpublished CClast sheet; it remains only in the unchanged reference MAT.",
+  "available_field_count": 8,
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "numpy": "2.1.3",
+  "scipy": "1.15.2",
+  "mapping_sha256": "74b63b9cf21e92abb5b5533d761452c91235f9d07827bcae672d0739d97c2bd1",
+  "workbook_hashes_verified": 687,
+  "datasets": {
+    "NMC_A": {
+      "variables": {
+        "processed_IC_partial_mat": {
+          "shape": [
+            240,
+            353
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "processed_Qd_partial_mat": {
+          "shape": [
+            241,
+            353
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "processed_Qmax_mat": {
+          "shape": [
+            1,
+            353
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "processed_RPT_IC_full_mat": {
+          "shape": [
+            240,
+            353
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "processed_RPT_Q_full_mat": {
+          "shape": [
+            241,
+            353
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "processed_RPT_V_full_mat": {
+          "shape": [
+            241,
+            353
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "processed_Vd_partial_mat": {
+          "shape": [
+            241,
+            353
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "voltage_grid_mat": {
+          "shape": [
+            241,
+            1
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "all_available_fields_exact": true,
+      "sample_count": 353,
+      "reference_mat_sha256": "c87b8ca50809178597af222878b3c5e76692cc2f9e66a95d0d3daf89405e0e33",
+      "reconstructed_fields": [
+        "processed_Qd_partial_mat",
+        "processed_Vd_partial_mat",
+        "processed_IC_partial_mat",
+        "processed_RPT_Q_full_mat",
+        "processed_RPT_V_full_mat",
+        "processed_RPT_IC_full_mat",
+        "processed_Qmax_mat",
+        "voltage_grid_mat"
+      ],
+      "not_reconstructed": [
+        "processed_IC_full_mat"
+      ],
+      "raw_sheets": [
+        "DisC",
+        "DisCC2"
+      ],
+      "output_mat_filename": "NMC_A_from_raw.mat"
+    },
+    "NMC_B": {
+      "variables": {
+        "processed_IC_partial_mat": {
+          "shape": [
+            290,
+            334
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "processed_Qd_partial_mat": {
+          "shape": [
+            291,
+            334
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "processed_Qmax_mat": {
+          "shape": [
+            1,
+            334
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "processed_RPT_IC_full_mat": {
+          "shape": [
+            290,
+            334
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "processed_RPT_Q_full_mat": {
+          "shape": [
+            291,
+            334
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "processed_RPT_V_full_mat": {
+          "shape": [
+            291,
+            334
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "processed_Vd_partial_mat": {
+          "shape": [
+            291,
+            334
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        },
+        "voltage_grid_mat": {
+          "shape": [
+            291,
+            1
+          ],
+          "shape_exact": true,
+          "nan_mask_exact": true,
+          "exact": true,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "all_available_fields_exact": true,
+      "sample_count": 334,
+      "reference_mat_sha256": "5b0baca80cffb9a85bd48918bf1da81f1a1839fcff12e02cf846e5b40fb36549",
+      "reconstructed_fields": [
+        "processed_Qd_partial_mat",
+        "processed_Vd_partial_mat",
+        "processed_IC_partial_mat",
+        "processed_RPT_Q_full_mat",
+        "processed_RPT_V_full_mat",
+        "processed_RPT_IC_full_mat",
+        "processed_Qmax_mat",
+        "voltage_grid_mat"
+      ],
+      "not_reconstructed": [
+        "processed_IC_full_mat"
+      ],
+      "raw_sheets": [
+        "DisC",
+        "DisCC2"
+      ],
+      "output_mat_filename": "NMC_B_from_raw.mat"
+    }
+  },
+  "all_available_fields_exact": true,
+  "mapping_sha256_before_name_normalization": "f504fa3eca0158ddeeb78c6ecb0cec64a1f979b95fcbbf15e6143f38bfa831d2",
+  "naming_update": "2026-10-10: public dataset labels and raw paths normalized to NMC_A/NMC_B; workbook bytes, ordering and canonical MATs unchanged."
+}

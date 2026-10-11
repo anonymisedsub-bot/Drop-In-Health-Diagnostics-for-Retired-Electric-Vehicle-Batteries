@@ -1,0 +1,41 @@
+{
+  "dataset": "LFP dataset",
+  "category": "raw-curves",
+  "notebook": "Raw charge-discharge curves/plot.ipynb",
+  "notebook_sha256": "dd2fa18e90d67549d0f1e563f84feea21aaeee7aa172d0c539163e0ec8a43198",
+  "datasets": {
+    "CETL-data.mat": {
+      "path": "..\\dataset\\CETL-data.mat",
+      "sha256": "cc9e295928f056117dadf6781d1ee0f7b238eb93c38c02db08817fce006cffef"
+    }
+  },
+  "figures": [
+    {
+      "path": "..\\outputs\\raw-curves\\Charge_discharge_full_cycle_Nature_Marine.png",
+      "sha256": "a62bc35b59cfdcd7289944b1c62215328fb1dcfba6c9356fa07029bc7a9602a6",
+      "dpi": 300,
+      "figsize_inches": [
+        20.0,
+        5.0
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "path": "raw-curves\\plotted_raw_cells.csv",
+      "sha256": "9d6424321bca49aa0932b25109869973c235e04688aba4577bbf7143a81d20cc",
+      "rows": 4000,
+      "columns": [
+        "raw_mat_record_one_based",
+        "maximum_discharge_capacity_Ah"
+      ]
+    }
+  ],
+  "versions": {
+    "numpy": "2.1.3",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.1",
+    "scikit_learn": "1.6.1"
+  },
+  "interpretation": "Descriptive dataset analysis; no trained model is used. See README for sampling and SOC definitions."
+}

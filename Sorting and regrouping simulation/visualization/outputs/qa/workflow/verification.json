@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "file": "panel_a.png",
+  "pixels": [
+    4251,
+    1559
+  ],
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "width_mm": 180,
+  "height_mm": 66,
+  "min_font_pt": 8.5,
+  "text_bounds_checked": true,
+  "text_pair_overlaps": [],
+  "strategy_ids": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "pack_cells": 8,
+  "records_per_model": 609,
+  "batch_size": 300,
+  "draws_per_seed": 1000,
+  "seeds_per_setting": 3,
+  "rpt_selection": "S5 only: highest-uncertainty 20% within the high-capacity/high-uncertainty quadrant",
+  "scientific_results_changed": false,
+  "illustration_only": true,
+  "sha256": "9e75e1cdc66d5d32295e270bc53b476ad721cbfe0b419fa15e1554f098c7bf76",
+  "labels": [
+    "Diagnosed pool",
+    "Capacity + interval",
+    "Bootstrap",
+    "Five strategies",
+    "Regrouping",
+    "Second-life pack",
+    "609 records\nper model",
+    "300 / batch",
+    "With replacement",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "RPT",
+    "High–high:\nwidest 20%",
+    "≥14 Ah",
+    "Reject",
+    "Capacity order",
+    "Per strategy",
+    "8 cells in series",
+    "Target ≥14 Ah",
+    "Quality · yield",
+    "Per setting: 1,000 paired draws × 3 model seeds"
+  ]
+}

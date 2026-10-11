@@ -1,0 +1,1691 @@
+{
+  "schema_version": 1,
+  "round_number": 2,
+  "labelled_fraction": 0.2857142857142857,
+  "labelled_count": 60,
+  "unlabelled_count": 150,
+  "labelled": [
+    {
+      "global_index": 175,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 176,
+      "battery_id": 176,
+      "filter_original_mat_column": 176
+    },
+    {
+      "global_index": 203,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 204,
+      "battery_id": 204,
+      "filter_original_mat_column": 204
+    },
+    {
+      "global_index": 311,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 312,
+      "battery_id": 312,
+      "filter_original_mat_column": 312
+    },
+    {
+      "global_index": 304,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 305,
+      "battery_id": 305,
+      "filter_original_mat_column": 305
+    },
+    {
+      "global_index": 67,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 68,
+      "battery_id": 68,
+      "filter_original_mat_column": 68
+    },
+    {
+      "global_index": 223,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 224,
+      "battery_id": 224,
+      "filter_original_mat_column": 224
+    },
+    {
+      "global_index": 300,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 301,
+      "battery_id": 301,
+      "filter_original_mat_column": 301
+    },
+    {
+      "global_index": 180,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 181,
+      "battery_id": 181,
+      "filter_original_mat_column": 181
+    },
+    {
+      "global_index": 226,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 227,
+      "battery_id": 227,
+      "filter_original_mat_column": 227
+    },
+    {
+      "global_index": 303,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 304,
+      "battery_id": 304,
+      "filter_original_mat_column": 304
+    },
+    {
+      "global_index": 237,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 238,
+      "battery_id": 238,
+      "filter_original_mat_column": 238
+    },
+    {
+      "global_index": 234,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 235,
+      "battery_id": 235,
+      "filter_original_mat_column": 235
+    },
+    {
+      "global_index": 288,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 289,
+      "battery_id": 289,
+      "filter_original_mat_column": 289
+    },
+    {
+      "global_index": 183,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 184,
+      "battery_id": 184,
+      "filter_original_mat_column": 184
+    },
+    {
+      "global_index": 184,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 185,
+      "battery_id": 185,
+      "filter_original_mat_column": 185
+    },
+    {
+      "global_index": 53,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 54,
+      "battery_id": 54,
+      "filter_original_mat_column": 54
+    },
+    {
+      "global_index": 135,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 136,
+      "battery_id": 136,
+      "filter_original_mat_column": 136
+    },
+    {
+      "global_index": 294,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 295,
+      "battery_id": 295,
+      "filter_original_mat_column": 295
+    },
+    {
+      "global_index": 157,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 158,
+      "battery_id": 158,
+      "filter_original_mat_column": 158
+    },
+    {
+      "global_index": 32,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 33,
+      "battery_id": 33,
+      "filter_original_mat_column": 33
+    },
+    {
+      "global_index": 251,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 252,
+      "battery_id": 252,
+      "filter_original_mat_column": 252
+    },
+    {
+      "global_index": 248,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 249,
+      "battery_id": 249,
+      "filter_original_mat_column": 249
+    },
+    {
+      "global_index": 78,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 79,
+      "battery_id": 79,
+      "filter_original_mat_column": 79
+    },
+    {
+      "global_index": 200,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 201,
+      "battery_id": 201,
+      "filter_original_mat_column": 201
+    },
+    {
+      "global_index": 112,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 113,
+      "battery_id": 113,
+      "filter_original_mat_column": 113
+    },
+    {
+      "global_index": 139,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 140,
+      "battery_id": 140,
+      "filter_original_mat_column": 140
+    },
+    {
+      "global_index": 198,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 199,
+      "battery_id": 199,
+      "filter_original_mat_column": 199
+    },
+    {
+      "global_index": 168,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 169,
+      "battery_id": 169,
+      "filter_original_mat_column": 169
+    },
+    {
+      "global_index": 134,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 135,
+      "battery_id": 135,
+      "filter_original_mat_column": 135
+    },
+    {
+      "global_index": 182,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 183,
+      "battery_id": 183,
+      "filter_original_mat_column": 183
+    },
+    {
+      "global_index": 148,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 149,
+      "battery_id": 149,
+      "filter_original_mat_column": 149
+    },
+    {
+      "global_index": 98,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 99,
+      "battery_id": 99,
+      "filter_original_mat_column": 99
+    },
+    {
+      "global_index": 31,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 32,
+      "battery_id": 32,
+      "filter_original_mat_column": 32
+    },
+    {
+      "global_index": 231,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 232,
+      "battery_id": 232,
+      "filter_original_mat_column": 232
+    },
+    {
+      "global_index": 240,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 241,
+      "battery_id": 241,
+      "filter_original_mat_column": 241
+    },
+    {
+      "global_index": 48,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 49,
+      "battery_id": 49,
+      "filter_original_mat_column": 49
+    },
+    {
+      "global_index": 52,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 53,
+      "battery_id": 53,
+      "filter_original_mat_column": 53
+    },
+    {
+      "global_index": 18,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 19,
+      "battery_id": 19,
+      "filter_original_mat_column": 19
+    },
+    {
+      "global_index": 254,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 255,
+      "battery_id": 255,
+      "filter_original_mat_column": 255
+    },
+    {
+      "global_index": 259,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 260,
+      "battery_id": 260,
+      "filter_original_mat_column": 260
+    },
+    {
+      "global_index": 93,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 94,
+      "battery_id": 94,
+      "filter_original_mat_column": 94
+    },
+    {
+      "global_index": 283,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 284,
+      "battery_id": 284,
+      "filter_original_mat_column": 284
+    },
+    {
+      "global_index": 23,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 24,
+      "battery_id": 24,
+      "filter_original_mat_column": 24
+    },
+    {
+      "global_index": 295,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 296,
+      "battery_id": 296,
+      "filter_original_mat_column": 296
+    },
+    {
+      "global_index": 199,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 200,
+      "battery_id": 200,
+      "filter_original_mat_column": 200
+    },
+    {
+      "global_index": 179,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 180,
+      "battery_id": 180,
+      "filter_original_mat_column": 180
+    },
+    {
+      "global_index": 271,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 272,
+      "battery_id": 272,
+      "filter_original_mat_column": 272
+    },
+    {
+      "global_index": 136,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 137,
+      "battery_id": 137,
+      "filter_original_mat_column": 137
+    },
+    {
+      "global_index": 118,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 119,
+      "battery_id": 119,
+      "filter_original_mat_column": 119
+    },
+    {
+      "global_index": 232,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 233,
+      "battery_id": 233,
+      "filter_original_mat_column": 233
+    },
+    {
+      "global_index": 71,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 72,
+      "battery_id": 72,
+      "filter_original_mat_column": 72
+    },
+    {
+      "global_index": 174,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 175,
+      "battery_id": 175,
+      "filter_original_mat_column": 175
+    },
+    {
+      "global_index": 218,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 219,
+      "battery_id": 219,
+      "filter_original_mat_column": 219
+    },
+    {
+      "global_index": 332,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 333,
+      "battery_id": 333,
+      "filter_original_mat_column": 333
+    },
+    {
+      "global_index": 313,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 314,
+      "battery_id": 314,
+      "filter_original_mat_column": 314
+    },
+    {
+      "global_index": 309,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 310,
+      "battery_id": 310,
+      "filter_original_mat_column": 310
+    },
+    {
+      "global_index": 86,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 87,
+      "battery_id": 87,
+      "filter_original_mat_column": 87
+    },
+    {
+      "global_index": 281,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 282,
+      "battery_id": 282,
+      "filter_original_mat_column": 282
+    },
+    {
+      "global_index": 289,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 290,
+      "battery_id": 290,
+      "filter_original_mat_column": 290
+    },
+    {
+      "global_index": 90,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 91,
+      "battery_id": 91,
+      "filter_original_mat_column": 91
+    }
+  ],
+  "unlabelled": [
+    {
+      "global_index": 227,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 228,
+      "battery_id": 228,
+      "filter_original_mat_column": 228
+    },
+    {
+      "global_index": 89,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 90,
+      "battery_id": 90,
+      "filter_original_mat_column": 90
+    },
+    {
+      "global_index": 12,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 13,
+      "battery_id": 13,
+      "filter_original_mat_column": 13
+    },
+    {
+      "global_index": 11,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 12,
+      "battery_id": 12,
+      "filter_original_mat_column": 12
+    },
+    {
+      "global_index": 321,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 322,
+      "battery_id": 322,
+      "filter_original_mat_column": 322
+    },
+    {
+      "global_index": 82,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 83,
+      "battery_id": 83,
+      "filter_original_mat_column": 83
+    },
+    {
+      "global_index": 247,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 248,
+      "battery_id": 248,
+      "filter_original_mat_column": 248
+    },
+    {
+      "global_index": 165,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 166,
+      "battery_id": 166,
+      "filter_original_mat_column": 166
+    },
+    {
+      "global_index": 6,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 7,
+      "battery_id": 7,
+      "filter_original_mat_column": 7
+    },
+    {
+      "global_index": 79,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 80,
+      "battery_id": 80,
+      "filter_original_mat_column": 80
+    },
+    {
+      "global_index": 166,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 167,
+      "battery_id": 167,
+      "filter_original_mat_column": 167
+    },
+    {
+      "global_index": 50,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 51,
+      "battery_id": 51,
+      "filter_original_mat_column": 51
+    },
+    {
+      "global_index": 107,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 108,
+      "battery_id": 108,
+      "filter_original_mat_column": 108
+    },
+    {
+      "global_index": 236,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 237,
+      "battery_id": 237,
+      "filter_original_mat_column": 237
+    },
+    {
+      "global_index": 177,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 178,
+      "battery_id": 178,
+      "filter_original_mat_column": 178
+    },
+    {
+      "global_index": 305,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 306,
+      "battery_id": 306,
+      "filter_original_mat_column": 306
+    },
+    {
+      "global_index": 270,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 271,
+      "battery_id": 271,
+      "filter_original_mat_column": 271
+    },
+    {
+      "global_index": 26,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 27,
+      "battery_id": 27,
+      "filter_original_mat_column": 27
+    },
+    {
+      "global_index": 291,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 292,
+      "battery_id": 292,
+      "filter_original_mat_column": 292
+    },
+    {
+      "global_index": 210,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 211,
+      "battery_id": 211,
+      "filter_original_mat_column": 211
+    },
+    {
+      "global_index": 29,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 30,
+      "battery_id": 30,
+      "filter_original_mat_column": 30
+    },
+    {
+      "global_index": 0,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 1,
+      "battery_id": 1,
+      "filter_original_mat_column": 1
+    },
+    {
+      "global_index": 113,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 114,
+      "battery_id": 114,
+      "filter_original_mat_column": 114
+    },
+    {
+      "global_index": 266,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 267,
+      "battery_id": 267,
+      "filter_original_mat_column": 267
+    },
+    {
+      "global_index": 114,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 115,
+      "battery_id": 115,
+      "filter_original_mat_column": 115
+    },
+    {
+      "global_index": 126,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 127,
+      "battery_id": 127,
+      "filter_original_mat_column": 127
+    },
+    {
+      "global_index": 326,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 327,
+      "battery_id": 327,
+      "filter_original_mat_column": 327
+    },
+    {
+      "global_index": 81,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 82,
+      "battery_id": 82,
+      "filter_original_mat_column": 82
+    },
+    {
+      "global_index": 170,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 171,
+      "battery_id": 171,
+      "filter_original_mat_column": 171
+    },
+    {
+      "global_index": 144,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 145,
+      "battery_id": 145,
+      "filter_original_mat_column": 145
+    },
+    {
+      "global_index": 318,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 319,
+      "battery_id": 319,
+      "filter_original_mat_column": 319
+    },
+    {
+      "global_index": 274,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 275,
+      "battery_id": 275,
+      "filter_original_mat_column": 275
+    },
+    {
+      "global_index": 104,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 105,
+      "battery_id": 105,
+      "filter_original_mat_column": 105
+    },
+    {
+      "global_index": 280,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 281,
+      "battery_id": 281,
+      "filter_original_mat_column": 281
+    },
+    {
+      "global_index": 36,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 37,
+      "battery_id": 37,
+      "filter_original_mat_column": 37
+    },
+    {
+      "global_index": 5,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 6,
+      "battery_id": 6,
+      "filter_original_mat_column": 6
+    },
+    {
+      "global_index": 178,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 179,
+      "battery_id": 179,
+      "filter_original_mat_column": 179
+    },
+    {
+      "global_index": 173,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 174,
+      "battery_id": 174,
+      "filter_original_mat_column": 174
+    },
+    {
+      "global_index": 59,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 60,
+      "battery_id": 60,
+      "filter_original_mat_column": 60
+    },
+    {
+      "global_index": 229,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 230,
+      "battery_id": 230,
+      "filter_original_mat_column": 230
+    },
+    {
+      "global_index": 42,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 43,
+      "battery_id": 43,
+      "filter_original_mat_column": 43
+    },
+    {
+      "global_index": 263,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 264,
+      "battery_id": 264,
+      "filter_original_mat_column": 264
+    },
+    {
+      "global_index": 129,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 130,
+      "battery_id": 130,
+      "filter_original_mat_column": 130
+    },
+    {
+      "global_index": 130,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 131,
+      "battery_id": 131,
+      "filter_original_mat_column": 131
+    },
+    {
+      "global_index": 302,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 303,
+      "battery_id": 303,
+      "filter_original_mat_column": 303
+    },
+    {
+      "global_index": 127,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 128,
+      "battery_id": 128,
+      "filter_original_mat_column": 128
+    },
+    {
+      "global_index": 108,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 109,
+      "battery_id": 109,
+      "filter_original_mat_column": 109
+    },
+    {
+      "global_index": 277,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 278,
+      "battery_id": 278,
+      "filter_original_mat_column": 278
+    },
+    {
+      "global_index": 45,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 46,
+      "battery_id": 46,
+      "filter_original_mat_column": 46
+    },
+    {
+      "global_index": 150,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 151,
+      "battery_id": 151,
+      "filter_original_mat_column": 151
+    },
+    {
+      "global_index": 181,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 182,
+      "battery_id": 182,
+      "filter_original_mat_column": 182
+    },
+    {
+      "global_index": 204,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 205,
+      "battery_id": 205,
+      "filter_original_mat_column": 205
+    },
+    {
+      "global_index": 290,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 291,
+      "battery_id": 291,
+      "filter_original_mat_column": 291
+    },
+    {
+      "global_index": 194,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 195,
+      "battery_id": 195,
+      "filter_original_mat_column": 195
+    },
+    {
+      "global_index": 38,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 39,
+      "battery_id": 39,
+      "filter_original_mat_column": 39
+    },
+    {
+      "global_index": 97,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 98,
+      "battery_id": 98,
+      "filter_original_mat_column": 98
+    },
+    {
+      "global_index": 215,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 216,
+      "battery_id": 216,
+      "filter_original_mat_column": 216
+    },
+    {
+      "global_index": 230,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 231,
+      "battery_id": 231,
+      "filter_original_mat_column": 231
+    },
+    {
+      "global_index": 238,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 239,
+      "battery_id": 239,
+      "filter_original_mat_column": 239
+    },
+    {
+      "global_index": 80,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 81,
+      "battery_id": 81,
+      "filter_original_mat_column": 81
+    },
+    {
+      "global_index": 192,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 193,
+      "battery_id": 193,
+      "filter_original_mat_column": 193
+    },
+    {
+      "global_index": 61,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 62,
+      "battery_id": 62,
+      "filter_original_mat_column": 62
+    },
+    {
+      "global_index": 216,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 217,
+      "battery_id": 217,
+      "filter_original_mat_column": 217
+    },
+    {
+      "global_index": 209,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 210,
+      "battery_id": 210,
+      "filter_original_mat_column": 210
+    },
+    {
+      "global_index": 250,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 251,
+      "battery_id": 251,
+      "filter_original_mat_column": 251
+    },
+    {
+      "global_index": 260,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 261,
+      "battery_id": 261,
+      "filter_original_mat_column": 261
+    },
+    {
+      "global_index": 74,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 75,
+      "battery_id": 75,
+      "filter_original_mat_column": 75
+    },
+    {
+      "global_index": 47,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 48,
+      "battery_id": 48,
+      "filter_original_mat_column": 48
+    },
+    {
+      "global_index": 15,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 16,
+      "battery_id": 16,
+      "filter_original_mat_column": 16
+    },
+    {
+      "global_index": 212,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 213,
+      "battery_id": 213,
+      "filter_original_mat_column": 213
+    },
+    {
+      "global_index": 22,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 23,
+      "battery_id": 23,
+      "filter_original_mat_column": 23
+    },
+    {
+      "global_index": 276,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 277,
+      "battery_id": 277,
+      "filter_original_mat_column": 277
+    },
+    {
+      "global_index": 155,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 156,
+      "battery_id": 156,
+      "filter_original_mat_column": 156
+    },
+    {
+      "global_index": 323,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 324,
+      "battery_id": 324,
+      "filter_original_mat_column": 324
+    },
+    {
+      "global_index": 39,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 40,
+      "battery_id": 40,
+      "filter_original_mat_column": 40
+    },
+    {
+      "global_index": 206,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 207,
+      "battery_id": 207,
+      "filter_original_mat_column": 207
+    },
+    {
+      "global_index": 17,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 18,
+      "battery_id": 18,
+      "filter_original_mat_column": 18
+    },
+    {
+      "global_index": 245,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 246,
+      "battery_id": 246,
+      "filter_original_mat_column": 246
+    },
+    {
+      "global_index": 10,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 11,
+      "battery_id": 11,
+      "filter_original_mat_column": 11
+    },
+    {
+      "global_index": 267,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 268,
+      "battery_id": 268,
+      "filter_original_mat_column": 268
+    },
+    {
+      "global_index": 35,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 36,
+      "battery_id": 36,
+      "filter_original_mat_column": 36
+    },
+    {
+      "global_index": 55,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 56,
+      "battery_id": 56,
+      "filter_original_mat_column": 56
+    },
+    {
+      "global_index": 176,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 177,
+      "battery_id": 177,
+      "filter_original_mat_column": 177
+    },
+    {
+      "global_index": 110,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 111,
+      "battery_id": 111,
+      "filter_original_mat_column": 111
+    },
+    {
+      "global_index": 299,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 300,
+      "battery_id": 300,
+      "filter_original_mat_column": 300
+    },
+    {
+      "global_index": 196,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 197,
+      "battery_id": 197,
+      "filter_original_mat_column": 197
+    },
+    {
+      "global_index": 197,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 198,
+      "battery_id": 198,
+      "filter_original_mat_column": 198
+    },
+    {
+      "global_index": 116,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 117,
+      "battery_id": 117,
+      "filter_original_mat_column": 117
+    },
+    {
+      "global_index": 307,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 308,
+      "battery_id": 308,
+      "filter_original_mat_column": 308
+    },
+    {
+      "global_index": 123,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 124,
+      "battery_id": 124,
+      "filter_original_mat_column": 124
+    },
+    {
+      "global_index": 154,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 155,
+      "battery_id": 155,
+      "filter_original_mat_column": 155
+    },
+    {
+      "global_index": 325,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 326,
+      "battery_id": 326,
+      "filter_original_mat_column": 326
+    },
+    {
+      "global_index": 292,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 293,
+      "battery_id": 293,
+      "filter_original_mat_column": 293
+    },
+    {
+      "global_index": 8,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 9,
+      "battery_id": 9,
+      "filter_original_mat_column": 9
+    },
+    {
+      "global_index": 164,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 165,
+      "battery_id": 165,
+      "filter_original_mat_column": 165
+    },
+    {
+      "global_index": 285,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 286,
+      "battery_id": 286,
+      "filter_original_mat_column": 286
+    },
+    {
+      "global_index": 151,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 152,
+      "battery_id": 152,
+      "filter_original_mat_column": 152
+    },
+    {
+      "global_index": 171,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 172,
+      "battery_id": 172,
+      "filter_original_mat_column": 172
+    },
+    {
+      "global_index": 87,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 88,
+      "battery_id": 88,
+      "filter_original_mat_column": 88
+    },
+    {
+      "global_index": 140,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 141,
+      "battery_id": 141,
+      "filter_original_mat_column": 141
+    },
+    {
+      "global_index": 69,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 70,
+      "battery_id": 70,
+      "filter_original_mat_column": 70
+    },
+    {
+      "global_index": 100,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 101,
+      "battery_id": 101,
+      "filter_original_mat_column": 101
+    },
+    {
+      "global_index": 111,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 112,
+      "battery_id": 112,
+      "filter_original_mat_column": 112
+    },
+    {
+      "global_index": 146,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 147,
+      "battery_id": 147,
+      "filter_original_mat_column": 147
+    },
+    {
+      "global_index": 2,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 3,
+      "battery_id": 3,
+      "filter_original_mat_column": 3
+    },
+    {
+      "global_index": 138,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 139,
+      "battery_id": 139,
+      "filter_original_mat_column": 139
+    },
+    {
+      "global_index": 243,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 244,
+      "battery_id": 244,
+      "filter_original_mat_column": 244
+    },
+    {
+      "global_index": 201,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 202,
+      "battery_id": 202,
+      "filter_original_mat_column": 202
+    },
+    {
+      "global_index": 27,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 28,
+      "battery_id": 28,
+      "filter_original_mat_column": 28
+    },
+    {
+      "global_index": 186,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 187,
+      "battery_id": 187,
+      "filter_original_mat_column": 187
+    },
+    {
+      "global_index": 329,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 330,
+      "battery_id": 330,
+      "filter_original_mat_column": 330
+    },
+    {
+      "global_index": 161,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 162,
+      "battery_id": 162,
+      "filter_original_mat_column": 162
+    },
+    {
+      "global_index": 66,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 67,
+      "battery_id": 67,
+      "filter_original_mat_column": 67
+    },
+    {
+      "global_index": 169,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 170,
+      "battery_id": 170,
+      "filter_original_mat_column": 170
+    },
+    {
+      "global_index": 246,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 247,
+      "battery_id": 247,
+      "filter_original_mat_column": 247
+    },
+    {
+      "global_index": 314,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 315,
+      "battery_id": 315,
+      "filter_original_mat_column": 315
+    },
+    {
+      "global_index": 143,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 144,
+      "battery_id": 144,
+      "filter_original_mat_column": 144
+    },
+    {
+      "global_index": 4,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 5,
+      "battery_id": 5,
+      "filter_original_mat_column": 5
+    },
+    {
+      "global_index": 14,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 15,
+      "battery_id": 15,
+      "filter_original_mat_column": 15
+    },
+    {
+      "global_index": 172,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 173,
+      "battery_id": 173,
+      "filter_original_mat_column": 173
+    },
+    {
+      "global_index": 132,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 133,
+      "battery_id": 133,
+      "filter_original_mat_column": 133
+    },
+    {
+      "global_index": 75,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 76,
+      "battery_id": 76,
+      "filter_original_mat_column": 76
+    },
+    {
+      "global_index": 272,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 273,
+      "battery_id": 273,
+      "filter_original_mat_column": 273
+    },
+    {
+      "global_index": 120,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 121,
+      "battery_id": 121,
+      "filter_original_mat_column": 121
+    },
+    {
+      "global_index": 141,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 142,
+      "battery_id": 142,
+      "filter_original_mat_column": 142
+    },
+    {
+      "global_index": 91,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 92,
+      "battery_id": 92,
+      "filter_original_mat_column": 92
+    },
+    {
+      "global_index": 33,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 34,
+      "battery_id": 34,
+      "filter_original_mat_column": 34
+    },
+    {
+      "global_index": 142,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 143,
+      "battery_id": 143,
+      "filter_original_mat_column": 143
+    },
+    {
+      "global_index": 316,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 317,
+      "battery_id": 317,
+      "filter_original_mat_column": 317
+    },
+    {
+      "global_index": 312,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 313,
+      "battery_id": 313,
+      "filter_original_mat_column": 313
+    },
+    {
+      "global_index": 241,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 242,
+      "battery_id": 242,
+      "filter_original_mat_column": 242
+    },
+    {
+      "global_index": 279,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 280,
+      "battery_id": 280,
+      "filter_original_mat_column": 280
+    },
+    {
+      "global_index": 13,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 14,
+      "battery_id": 14,
+      "filter_original_mat_column": 14
+    },
+    {
+      "global_index": 94,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 95,
+      "battery_id": 95,
+      "filter_original_mat_column": 95
+    },
+    {
+      "global_index": 125,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 126,
+      "battery_id": 126,
+      "filter_original_mat_column": 126
+    },
+    {
+      "global_index": 115,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 116,
+      "battery_id": 116,
+      "filter_original_mat_column": 116
+    },
+    {
+      "global_index": 320,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 321,
+      "battery_id": 321,
+      "filter_original_mat_column": 321
+    },
+    {
+      "global_index": 296,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 297,
+      "battery_id": 297,
+      "filter_original_mat_column": 297
+    },
+    {
+      "global_index": 261,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 262,
+      "battery_id": 262,
+      "filter_original_mat_column": 262
+    },
+    {
+      "global_index": 319,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 320,
+      "battery_id": 320,
+      "filter_original_mat_column": 320
+    },
+    {
+      "global_index": 282,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 283,
+      "battery_id": 283,
+      "filter_original_mat_column": 283
+    },
+    {
+      "global_index": 92,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 93,
+      "battery_id": 93,
+      "filter_original_mat_column": 93
+    },
+    {
+      "global_index": 147,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 148,
+      "battery_id": 148,
+      "filter_original_mat_column": 148
+    },
+    {
+      "global_index": 56,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 57,
+      "battery_id": 57,
+      "filter_original_mat_column": 57
+    },
+    {
+      "global_index": 51,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 52,
+      "battery_id": 52,
+      "filter_original_mat_column": 52
+    },
+    {
+      "global_index": 211,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 212,
+      "battery_id": 212,
+      "filter_original_mat_column": 212
+    },
+    {
+      "global_index": 327,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 328,
+      "battery_id": 328,
+      "filter_original_mat_column": 328
+    },
+    {
+      "global_index": 284,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 285,
+      "battery_id": 285,
+      "filter_original_mat_column": 285
+    },
+    {
+      "global_index": 76,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 77,
+      "battery_id": 77,
+      "filter_original_mat_column": 77
+    },
+    {
+      "global_index": 83,
+      "experiment_batch": 3,
+      "source_batch": 6,
+      "source_matrix_column": 84,
+      "battery_id": 84,
+      "filter_original_mat_column": 84
+    }
+  ]
+}

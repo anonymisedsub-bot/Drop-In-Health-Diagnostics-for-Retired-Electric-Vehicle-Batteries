@@ -1,0 +1,52 @@
+{
+  "panel": "voltage_capacity_and_ic",
+  "dataset": "NMC_B",
+  "figure3_panel": "h",
+  "figure_files": [
+    {
+      "file": "panel_h_NMC_B.png",
+      "sha256": "6d05b6c027d09b5ee6fb68282344971adbd5e8ce00b901070b7b24e0ffe997f4"
+    }
+  ],
+  "source_batch": 6,
+  "n_cells": 334,
+  "input_file": "NMC_B_data_processed.mat",
+  "input_sha256": "5b0baca80cffb9a85bd48918bf1da81f1a1839fcff12e02cf846e5b40fb36549",
+  "width_mm": 84.0,
+  "height_mm": 52.8,
+  "png_dpi": 600,
+  "font_family": "Arial",
+  "font_size_pt": 9,
+  "minimum_text_canvas_clearance_pt": 1.159852362204724,
+  "nearest_text_to_canvas": "Voltage (V)",
+  "axis_linewidth_pt": 0.4,
+  "tight_crop": false,
+  "source_data_file": "source_data.npz",
+  "discharge_stage": "RPT (~0.5C)",
+  "layout": "V\u2013Q left, corresponding IC right",
+  "data_panel_count": 2,
+  "axes_count": 3,
+  "shared_colorbar_count": 1,
+  "shared_curve_colors_verified": true,
+  "colorbar_width_mm": 2.7999999999999994,
+  "colorbar_height_ratio": 0.5000000000000001,
+  "matrix_fields": [
+    "processed_RPT_Q_full_mat",
+    "processed_RPT_V_full_mat",
+    "processed_RPT_IC_full_mat"
+  ],
+  "capacity_color_limits_Ah": [
+    1.98040187,
+    2.57006
+  ],
+  "colorbar_label": "Maximum capacity (Ah)",
+  "colormap_anchors": [
+    "#3B5B92",
+    "#6FA8A3",
+    "#D9C77E",
+    "#D8905A",
+    "#B85C5C"
+  ],
+  "curve_alpha": 0.55,
+  "additional_smoothing": false
+}

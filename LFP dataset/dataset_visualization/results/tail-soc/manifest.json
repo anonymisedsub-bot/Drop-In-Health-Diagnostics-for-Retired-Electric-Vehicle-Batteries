@@ -1,0 +1,146 @@
+{
+  "dataset": "LFP dataset",
+  "category": "tail-soc",
+  "notebook": "Tail+upstream fragments/plot.ipynb",
+  "notebook_sha256": "6f0e72f40b344d5fc0c8faba3696f0b20fece40fa448fe68df05cc6045116149",
+  "datasets": {
+    "LFP_data_processed.mat": {
+      "path": "..\\dataset\\LFP_data_processed.mat",
+      "sha256": "7c95928c620bf23c61456225fca8838a21951432b7ffe58ce75bd0d651b82d05"
+    }
+  },
+  "figures": [
+    {
+      "path": "..\\outputs\\tail-soc\\fig1_tail_curve_and_SOC_Vtail_2.73.png",
+      "sha256": "99294c32602f26535f1b1cf51848579f84d8f6a241ec3ae02606def0ba496d28",
+      "dpi": 300,
+      "figsize_inches": [
+        15.0,
+        5.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-soc\\fig2_upstream_segment_curves_2x3_Vtail_2.73.png",
+      "sha256": "9c63852529280c1e9dbee20935208d362342e736184e2b68bf8744eac197af27",
+      "dpi": 300,
+      "figsize_inches": [
+        15.0,
+        5.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-soc\\fig1_tail_curve_and_SOC_Vtail_2.75.png",
+      "sha256": "34c6e23fd809adaf721e790a1ec54610522ee23738931367bc9cc24ad03f262d",
+      "dpi": 300,
+      "figsize_inches": [
+        15.0,
+        5.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-soc\\fig2_upstream_segment_curves_2x3_Vtail_2.75.png",
+      "sha256": "4aeeb545cc50c1719ac7037287b67fa030c693c8e7a7682d88f2ce5ec30b3c38",
+      "dpi": 300,
+      "figsize_inches": [
+        15.0,
+        5.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-soc\\fig1_tail_curve_and_SOC_Vtail_2.77.png",
+      "sha256": "f3989e779f20538b52210730dc0f5fdcb9ae7c176d1ff2cc77ec8dee29d992d1",
+      "dpi": 300,
+      "figsize_inches": [
+        15.0,
+        5.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-soc\\fig2_upstream_segment_curves_2x3_Vtail_2.77.png",
+      "sha256": "7f190e2d19038b471264508534d6b1504f353bebd468da6d987cb9eb2eaddf9a",
+      "dpi": 300,
+      "figsize_inches": [
+        15.0,
+        5.0
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "path": "tail-soc\\cell_soc_Vtail_2.73.csv",
+      "sha256": "807c5fefaf8d27bdfa2a4a7db8c19775a0976275a24fde368e99ff3d6a409eca",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "simulated_initial_voltage_V",
+        "initial_SOC_percent",
+        "tail_cutoff_SOC_percent"
+      ]
+    },
+    {
+      "path": "tail-soc\\soc_histogram_Vtail_2.73.csv",
+      "sha256": "43c0556dc2829209f9881ccbc54edcdf0d05c15cf4169399a4de0a85afaa17c5",
+      "rows": 30,
+      "columns": [
+        "lower_SOC_percent",
+        "upper_SOC_percent",
+        "initial_cell_count",
+        "tail_cutoff_cell_count"
+      ]
+    },
+    {
+      "path": "tail-soc\\cell_soc_Vtail_2.75.csv",
+      "sha256": "0874b62659411be4b141fd13867d5c0dfedbff4d92d8f183c1b20cff87391066",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "simulated_initial_voltage_V",
+        "initial_SOC_percent",
+        "tail_cutoff_SOC_percent"
+      ]
+    },
+    {
+      "path": "tail-soc\\soc_histogram_Vtail_2.75.csv",
+      "sha256": "c8e28cd7e508aeafae9568f592ae2ca753c65053798a7464c41009728a84e992",
+      "rows": 30,
+      "columns": [
+        "lower_SOC_percent",
+        "upper_SOC_percent",
+        "initial_cell_count",
+        "tail_cutoff_cell_count"
+      ]
+    },
+    {
+      "path": "tail-soc\\cell_soc_Vtail_2.77.csv",
+      "sha256": "9d1ede732fa415ac14cbcb8fedda3873a7b8d7eaf2cd52ed06d63cbae7a0a979",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah",
+        "simulated_initial_voltage_V",
+        "initial_SOC_percent",
+        "tail_cutoff_SOC_percent"
+      ]
+    },
+    {
+      "path": "tail-soc\\soc_histogram_Vtail_2.77.csv",
+      "sha256": "07325301231f8bb7088ba12998e7c2fd69b828173ac7a7cd324cdcad0a0edb86",
+      "rows": 30,
+      "columns": [
+        "lower_SOC_percent",
+        "upper_SOC_percent",
+        "initial_cell_count",
+        "tail_cutoff_cell_count"
+      ]
+    }
+  ],
+  "versions": {
+    "numpy": "2.1.3",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.1",
+    "scikit_learn": "1.6.1"
+  },
+  "interpretation": "Descriptive dataset analysis; no trained model is used. See README for sampling and SOC definitions."
+}

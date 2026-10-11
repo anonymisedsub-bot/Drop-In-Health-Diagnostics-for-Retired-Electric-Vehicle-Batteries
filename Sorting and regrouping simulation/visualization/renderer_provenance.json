@@ -1,0 +1,34 @@
+{
+  "description": "Manuscript native-size Python renderers; import side effects and unused historical exports removed. Drawing functions retain established numerical and visual definitions.",
+  "source_files": {
+    "figure_style.py": {
+      "original_sha256": "c5937345b02b3e52e21aae209f082d9a461b0f643559771a16b5420d13077a16",
+      "portable_sha256": "54726e0afe47badf1f2b0680b7780fa4b2cc7957c76663e9b10e107dcb81e0be"
+    },
+    "plot_outcomes.py": {
+      "original_sha256": "4ace149a4d5f5f6f172b9ace1f2b94d715cb3e6d79f29cd3643daa913e22274a",
+      "portable_sha256": "a25775b06a583bbcea599f806a5729ec6789e43af51ab5f76ea971fab55fbd61"
+    },
+    "plot_mechanism.py": {
+      "original_sha256": "7c7bcfa4666dee945f882ee764bbbb0095f8e426a5b6d45f28122e39f1700a6e",
+      "portable_sha256": "30b0eae010fad04d788319a410c2d7f4098bb64fc783f82e44488c901ea4cbc9"
+    },
+    "build_main_figure.py": {
+      "original_sha256": "6365c386a907d039b63a698dc695e5dd02380b4ae41b2f9d2cbec48f4e834a3d",
+      "portable_sha256": "d8e6ed04b9d8e754d72ea4ab9a5929190c38e00ffb9b45ba4fff4c055b601416"
+    },
+    "build_manuscript_png.py": {
+      "original_sha256": "187d9579776b88d6101695e4f44154412679597f3aacfd8ab0ad9f4a72839da4",
+      "portable_sha256": "4fdbc5d6f069d37d86cde917c2fe1f8984d0ed643fca52458342591627c015cd"
+    },
+    "build_merged_main_png.py": {
+      "original_sha256": "9ddeb24e1199955db77d58e829fb6580dedce290a284387134fe73bcb419d732",
+      "portable_sha256": "1934ce854f88cc5f8241b134c4e72a5dcb7b9a4f45cd0be418231a63894af3f4"
+    },
+    "build_workflow_panel.py": {
+      "original_sha256": "794c199508bb4293e92c98d921f8d226d2c590c1031462fcdc6183b71d792a46",
+      "portable_sha256": "ed5409ca26b5f941a1e9a15138464c9ad4de3c44e551463080fa7cc79fdd4e8a"
+    }
+  },
+  "output_layout": "All plotting code: visualization/; flat panels: visualization/outputs/; numerical plotting data: results/figure_data/."
+}

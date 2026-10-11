@@ -1,0 +1,41 @@
+{
+  "dataset": "LFP dataset",
+  "category": "complete-curves",
+  "notebook": "Complete and segmented discharge curves/plot.ipynb",
+  "notebook_sha256": "702cfc828a64c7ca28d5c15e523292e284108436f671985698f68bef71246b87",
+  "datasets": {
+    "LFP_data_processed.mat": {
+      "path": "..\\dataset\\LFP_data_processed.mat",
+      "sha256": "7c95928c620bf23c61456225fca8838a21951432b7ffe58ce75bd0d651b82d05"
+    }
+  },
+  "figures": [
+    {
+      "path": "..\\outputs\\complete-curves\\VQ_and_IC_curves_shared_colorbar_Nature_style.png",
+      "sha256": "eef63f0fdd08e12522ef085f06b4b39216a05b1253158ee0328a4ba0c66adaa5",
+      "dpi": 300,
+      "figsize_inches": [
+        12.0,
+        4.8
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "path": "complete-curves\\curve_columns.csv",
+      "sha256": "20ea3b73c8e2f704f499e6a538816c2b4ca805f8e9ebb839abc8bd9783021feb",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "capacity_Ah"
+      ]
+    }
+  ],
+  "versions": {
+    "numpy": "2.1.3",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.1",
+    "scikit_learn": "1.6.1"
+  },
+  "interpretation": "Descriptive dataset analysis; no trained model is used. See README for sampling and SOC definitions."
+}

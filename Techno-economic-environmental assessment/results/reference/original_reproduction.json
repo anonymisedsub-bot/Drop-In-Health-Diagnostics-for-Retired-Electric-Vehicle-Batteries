@@ -1,0 +1,5 @@
+{
+  "frozen_summary_checked": true,
+  "unchanged_comparators_exact": true,
+  "interpretation": "q=0 on identical shared draws reproduces the preserved original; tolerances only check numerical identity, not Monte Carlo convergence."
+}

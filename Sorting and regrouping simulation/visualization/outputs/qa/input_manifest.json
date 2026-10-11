@@ -1,0 +1,8 @@
+{
+  "batch_metrics.csv.gz": "26db2cb350db32139043ecccb39642d04679aad4fc30aa3a9405a38e02c955a8",
+  "summary_by_model.csv": "49e76141b9abc079b23307a215f5bff7ccc22a75914cc31624ed812a8741d837",
+  "summary_by_pool_and_vtail.csv": "0b0a40bd733e405cc750492bba735ccdb29dbee658d8bab96661757f6d741980",
+  "paired_batch_effects.csv.gz": "e0e24ba6719e631bc4b22b63889a9c78ac2b08dd6d8e55912dacd87372eb5749",
+  "paired_summary_by_pool_and_vtail.csv": "8ea42d4bfb4a344ead5e79224b4db873ba17a5f5f73520c1d17c836eb4689613",
+  "example_batch0_assignments.csv.gz": "1e8f4209175af3540cd8df4dec41ab4d371738079307d0110d54c9107bae8661"
+}

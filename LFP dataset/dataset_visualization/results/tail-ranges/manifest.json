@@ -1,0 +1,104 @@
+{
+  "dataset": "LFP dataset",
+  "category": "tail-ranges",
+  "notebook": "Voltage and SOC ranges of different tail settings/plot.ipynb",
+  "notebook_sha256": "f91528903787ece6e8d9a9c424c398cc9b464abcbdde1c163b83a6d377a4844f",
+  "datasets": {
+    "LFP_data_processed.mat": {
+      "path": "..\\dataset\\LFP_data_processed.mat",
+      "sha256": "7c95928c620bf23c61456225fca8838a21951432b7ffe58ce75bd0d651b82d05"
+    }
+  },
+  "figures": [
+    {
+      "path": "..\\outputs\\tail-ranges\\Tail_voltage_SOC_cutoff_ratio_Vtail_2.73.png",
+      "sha256": "e2907780102534134383ea706cf805f4859c9c31f612466baee3b0406d7370bd",
+      "dpi": 600,
+      "figsize_inches": [
+        2.2,
+        2.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-ranges\\Tail_voltage_SOC_cutoff_ratio_Vtail_2.75.png",
+      "sha256": "171e7bf9015517aae1ed3ae5ed8cc97ce8a2df1d1e7002cca2ea5c300eccf716",
+      "dpi": 600,
+      "figsize_inches": [
+        2.2,
+        2.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\tail-ranges\\Tail_voltage_SOC_cutoff_ratio_Vtail_2.77.png",
+      "sha256": "5a46602ba2328820755071bee0d93d0df8276b6d6d5a114ec9a45467ff42fc4a",
+      "dpi": 600,
+      "figsize_inches": [
+        2.2,
+        2.0
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "path": "tail-ranges\\cell_SOC_Vtail_2.73.csv",
+      "sha256": "b3a3c654cdb7b4914b0011b565c17099129b1fafddccc101286c8d6464db53a3",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "tail_cutoff_SOC_percent"
+      ]
+    },
+    {
+      "path": "tail-ranges\\proportions_Vtail_2.73.csv",
+      "sha256": "18a3286ac22183cd685d442d8bc02bf66eeb6e10d12d5c54f070d1450294ba92",
+      "rows": 2,
+      "columns": [
+        "measure",
+        "percent"
+      ]
+    },
+    {
+      "path": "tail-ranges\\cell_SOC_Vtail_2.75.csv",
+      "sha256": "b27462c5455278bec6ecb3edde64e70a5cb1cc0bec58705f56a15cde63b3fc8c",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "tail_cutoff_SOC_percent"
+      ]
+    },
+    {
+      "path": "tail-ranges\\proportions_Vtail_2.75.csv",
+      "sha256": "e14aba1d48ff1e663dd1ff5c74a5865301f32ec138fd9254f9f6bd38410dbcb8",
+      "rows": 2,
+      "columns": [
+        "measure",
+        "percent"
+      ]
+    },
+    {
+      "path": "tail-ranges\\cell_SOC_Vtail_2.77.csv",
+      "sha256": "a401958169c17c3e7aa010d9ee7dec6b41ecd2bf5718a609dd3db28f3c12c7fc",
+      "rows": 3511,
+      "columns": [
+        "cell_index_zero_based",
+        "tail_cutoff_SOC_percent"
+      ]
+    },
+    {
+      "path": "tail-ranges\\proportions_Vtail_2.77.csv",
+      "sha256": "a927d5d0e71dca0cf0c5e248e5d563638d1ba5453d64bd3ee1a5431e09ad068c",
+      "rows": 2,
+      "columns": [
+        "measure",
+        "percent"
+      ]
+    }
+  ],
+  "versions": {
+    "numpy": "2.1.3",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.1",
+    "scikit_learn": "1.6.1"
+  },
+  "interpretation": "Descriptive dataset analysis; no trained model is used. See README for sampling and SOC definitions."
+}

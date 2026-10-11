@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "main_draws": 800000,
+  "method_ledgers_checked": 4000000,
+  "paired_rows_checked": 3200000,
+  "uniform_draws_checked": 800000,
+  "original_fifteen_draws_identical": true,
+  "independent_q_reproducible": true,
+  "all_primary_protocols_feasible": true,
+  "targeted_rpt_denominator": "deployment_pool",
+  "targeted_rpt_initial_soc": 0,
+  "sensitivity_fixed_q": 0.04,
+  "audit": "Frozen original model plus independently written additive-cycle formulas; all primary method, paired and targeted-RPT raw records checked; single/two-factor savings records, principal method/paired summaries and uniform paired summary checked. Auxiliary summary files are not independently audited by this script.",
+  "tolerances": "Floating-point identity checks only; no Monte Carlo convergence thresholds imposed."
+}

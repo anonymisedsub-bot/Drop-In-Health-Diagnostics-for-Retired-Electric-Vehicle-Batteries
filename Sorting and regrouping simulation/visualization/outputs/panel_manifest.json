@@ -1,0 +1,225 @@
+{
+  "figure": "Figure 7",
+  "dataset": "LFP dataset",
+  "backend": "Python/matplotlib",
+  "formats": [
+    "PNG"
+  ],
+  "panel_labels": "Filenames identify a-l; independent panels omit outer letters/titles for manuscript assembly.",
+  "panels": [
+    {
+      "panel": "a",
+      "title": "Simulation workflow",
+      "file": "panel_a.png",
+      "pixels": [
+        4251,
+        1559
+      ],
+      "dpi": 600,
+      "sha256": "9e75e1cdc66d5d32295e270bc53b476ad721cbfe0b419fa15e1554f098c7bf76",
+      "source_data": []
+    },
+    {
+      "panel": "b",
+      "title": "Uncertainty-guided selection",
+      "file": "panel_b.png",
+      "pixels": [
+        1870,
+        1305
+      ],
+      "dpi": 600,
+      "sha256": "c498b7c789745269ebb1665057cf62622a5ecb34bd270ecc9e0ae5c34e3a02a1",
+      "source_data": [
+        "main_b_example_300_records.csv"
+      ]
+    },
+    {
+      "panel": "c",
+      "title": "Cell sorting and targeted RPT",
+      "file": "panel_c.png",
+      "pixels": [
+        2008,
+        1157
+      ],
+      "dpi": 600,
+      "sha256": "c6b4305d4e43fa8a7bb464c9c024ca915db09b6090cf8fad1f79b97df2ba0105",
+      "source_data": [
+        "fig01_flow_counts.csv"
+      ]
+    },
+    {
+      "panel": "d",
+      "title": "Cell capacities within packs",
+      "file": "panel_d.png",
+      "pixels": [
+        2008,
+        1157
+      ],
+      "dpi": 600,
+      "sha256": "ee880323ed0228fa2ba8f5b2ce40cde39e99ea6a8eab015a02ab1eeaf5c95e6b",
+      "source_data": [
+        "main2_assembled_cells.csv"
+      ]
+    },
+    {
+      "panel": "e",
+      "title": "Pack capacity by pack",
+      "file": "panel_e.png",
+      "pixels": [
+        1287,
+        958
+      ],
+      "dpi": 600,
+      "sha256": "007caa2505e14db2566fe26f74fa7a9929c539220d751e82e7ed1d5fa790033e",
+      "source_data": [
+        "main2_pack_metrics.csv"
+      ]
+    },
+    {
+      "panel": "f",
+      "title": "Sorting quality and residual risk (%)",
+      "file": "panel_f.png",
+      "pixels": [
+        2630,
+        1011
+      ],
+      "dpi": 600,
+      "sha256": "cd7517919cfddf57438d0b198fb6d533479edbf71320b6591a82cb945e255205",
+      "source_data": [
+        "main_f_sorting_quality.csv",
+        "main_f_residual_risk_records.csv"
+      ]
+    },
+    {
+      "panel": "g",
+      "title": "Quality and yield",
+      "file": "panel_g.png",
+      "pixels": [
+        1287,
+        958
+      ],
+      "dpi": 600,
+      "sha256": "57e44d556f34c42c96434d264c9a8be41f40c9f5b9fc40a004f4713c7892c81d",
+      "source_data": [
+        "main_c_quality_yield.csv"
+      ]
+    },
+    {
+      "panel": "h",
+      "title": "Pack capacity",
+      "file": "panel_h.png",
+      "pixels": [
+        1127,
+        958
+      ],
+      "dpi": 600,
+      "sha256": "7cb5499770c67ffc51bf7870ef6b8d72e02450eb201b6817d7122419da93f8c6",
+      "source_data": [
+        "merged_h_distribution_summary.csv"
+      ]
+    },
+    {
+      "panel": "i",
+      "title": "Within-pack consistency",
+      "file": "panel_i.png",
+      "pixels": [
+        1247,
+        958
+      ],
+      "dpi": 600,
+      "sha256": "b16fd4abc0c76e9a92d197c6ef43dc22cb115569fc3568d96e59d39de7ace01f",
+      "source_data": [
+        "merged_i_distribution_summary.csv"
+      ]
+    },
+    {
+      "panel": "j",
+      "title": "RPT: yield gain (pp)",
+      "file": "panel_j.png",
+      "pixels": [
+        1297,
+        1229
+      ],
+      "dpi": 600,
+      "sha256": "3742864b8052db3ae15aca817cdd939adbe3f27616127c55b9a504df18dd0368",
+      "source_data": [
+        "main_ghi_all_settings.csv"
+      ]
+    },
+    {
+      "panel": "k",
+      "title": "RPT: pass change (pp)",
+      "file": "panel_k.png",
+      "pixels": [
+        1162,
+        1228
+      ],
+      "dpi": 600,
+      "sha256": "2284c58774fb25ff134b92a1abeafb1344a9638b8b034fe21c7a4a9021bac589",
+      "source_data": [
+        "main_ghi_all_settings.csv"
+      ]
+    },
+    {
+      "panel": "l",
+      "title": "RPT workload",
+      "file": "panel_l.png",
+      "pixels": [
+        1281,
+        1303
+      ],
+      "dpi": 600,
+      "sha256": "c046b28737f3393391477a75fcab45e01e2a532098f43bdff09d9a1a3d1f0325",
+      "source_data": [
+        "main_ghi_all_settings.csv"
+      ]
+    }
+  ],
+  "source_data_sha256": {
+    "fig01_flow_counts.csv": "682e8cc642ccbfc78fdfb9b120e7988de969ef60c8902afef13c049d6c600e4f",
+    "main2_assembled_cells.csv": "765fe4fc735345335c25703d364be1bb94ac147d54d605855f30234396681d0c",
+    "main2_pack_metrics.csv": "b342ccd57282e18e66d2403e42bdef9dc3653e19d3ca72d46e9bbc1a89277c7c",
+    "main_b_example_300_records.csv": "95959acf8d95b186c6c6996e17f97e3a20931408362488c216df817b549e472c",
+    "main_c_quality_yield.csv": "cae3bca0113bcd76343c6aae498b65f089a0b18b64dd11fe15af4d2f19968ecc",
+    "main_f_residual_risk_records.csv": "ffa9a583f8965ab7e0196d45502c2298b9307f7a2fafb4882c483f66712684c2",
+    "main_f_sorting_quality.csv": "74b7de0651ea15bc1807b46a2697669efb008a4ee74909bbfaa0761b6d286cb4",
+    "main_ghi_all_settings.csv": "4e6db04950a533831ff5259e55611cff1e576410cb1a74845ddc656c03c3a86d",
+    "merged_h_distribution_summary.csv": "4c4ad9553dc6b3dd85f4bc5b04bdbe2ac58b3441803643ea186f2aecd7a3a02e",
+    "merged_i_distribution_summary.csv": "8860494a1fde029609384fbc11451ff1d5cf2f8309f1a249de560ebcdec9572a"
+  },
+  "source_data_directory": "../../results/figure_data",
+  "input_content_sha256": {
+    "batch_metrics.csv.gz": "62c920f39715ca0b743459c6c4a0ce9abdf9bb21c87368ff3a6ba0580cfbcdd9",
+    "summary_by_model.csv": "49e76141b9abc079b23307a215f5bff7ccc22a75914cc31624ed812a8741d837",
+    "summary_by_pool_and_vtail.csv": "0b0a40bd733e405cc750492bba735ccdb29dbee658d8bab96661757f6d741980",
+    "paired_batch_effects.csv.gz": "471b83c851097437557c25d45d65ef3a435e6bef20724409aea2be32c803c76c",
+    "paired_summary_by_model.csv": "3b29a0ca788cdafd0df41551251680603b706d61de2bba16598b7ca48a3d2a99",
+    "paired_summary_by_pool_and_vtail.csv": "8ea42d4bfb4a344ead5e79224b4db873ba17a5f5f73520c1d17c836eb4689613",
+    "example_batch0_assignments.csv.gz": "b17e3d4e1c4fd74373fd95e968395804fb9216cd4723a5f2572604808b6e19be",
+    "RPT_workload.csv": "65f5c724806f3836e44873ce51e31cd8340cfb7ce17ebdc14760945335f95422",
+    "RPT_comparison_overview.csv": "a5b91f37181b7e9ca9f527a92898da86ab7388000350b22123d2d5f2a7178ace"
+  },
+  "renderer_source_sha256": {
+    "build_main_figure.py": "d8e6ed04b9d8e754d72ea4ab9a5929190c38e00ffb9b45ba4fff4c055b601416",
+    "build_manuscript_png.py": "4fdbc5d6f069d37d86cde917c2fe1f8984d0ed643fca52458342591627c015cd",
+    "build_merged_main_png.py": "1934ce854f88cc5f8241b134c4e72a5dcb7b9a4f45cd0be418231a63894af3f4",
+    "build_workflow_panel.py": "ed5409ca26b5f941a1e9a15138464c9ad4de3c44e551463080fa7cc79fdd4e8a",
+    "figure_style.py": "54726e0afe47badf1f2b0680b7780fa4b2cc7957c76663e9b10e107dcb81e0be",
+    "plot_demo.py": "cd9e917aab96e52038af7c8c714ac3521572ffa7844cb043711ce3e96d650382",
+    "plot_mechanism.py": "30b0eae010fad04d788319a410c2d7f4098bb64fc783f82e44488c901ea4cbc9",
+    "plot_outcomes.py": "a25775b06a583bbcea599f806a5729ec6789e43af51ab5f76ea971fab55fbd61",
+    "render_figure7.py": "9b0ec4b787de90430b980aa5a37dc8a9be0b605613ff0e8f86e64c98c2ea432a"
+  },
+  "model_retraining": false,
+  "simulation_rerun": false,
+  "evaluation_type": "simulation_only",
+  "physical_pack_validation": false,
+  "representative_batch": {
+    "condition": "t50_i4_s1",
+    "batch_id": 0,
+    "records": 300,
+    "rpt_records": 13,
+    "packs": 11
+  },
+  "uncertainty": "Central 95% batch ranges; not population mean confidence intervals."
+}

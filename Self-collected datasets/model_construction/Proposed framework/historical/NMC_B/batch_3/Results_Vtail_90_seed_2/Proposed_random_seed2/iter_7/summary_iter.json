@@ -1,0 +1,11 @@
+{
+  "dataset_batch": 3,
+  "seed": 2,
+  "round_number": 7,
+  "labelled_fraction": 1.0,
+  "labelled_count": 210,
+  "unlabelled_count": 0,
+  "MAPE": 1.6954133287072182,
+  "RMSPE": 2.2256027907133102,
+  "R2": 0.5812932848930359
+}

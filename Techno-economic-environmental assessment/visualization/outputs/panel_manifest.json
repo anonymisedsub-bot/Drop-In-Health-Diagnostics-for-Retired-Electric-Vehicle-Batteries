@@ -1,0 +1,863 @@
+{
+  "figure": "Figure 8",
+  "reference_only": true,
+  "primary_seed": 20260921,
+  "monte_carlo_draws": 800000,
+  "resampled": false,
+  "n_free_inputs": 16,
+  "fixed_sensitivity_q": 0.04,
+  "response_scale": {
+    "minimum_pct": 29.551718260529256,
+    "maximum_pct": 90.32839173608924,
+    "vmin": 25.0,
+    "vmax": 95.0,
+    "original_limits": [
+      35,
+      95
+    ],
+    "default_variant_limits": [
+      30,
+      95
+    ]
+  },
+  "method_order": [
+    "proposed",
+    "pulse",
+    "eis",
+    "partial_charge",
+    "rpt"
+  ],
+  "panel_b_cost_order": [
+    "proposed_no_targeted_rpt",
+    "proposed",
+    "pulse",
+    "eis",
+    "partial_charge",
+    "rpt"
+  ],
+  "source_edition": "targeted_RPT_current",
+  "panel_titles_removed": true,
+  "panel_letters_removed": true,
+  "heatmap_method_names_retained": true,
+  "partial_charge_heading_wrapped": true,
+  "panel_c_colour_bar_included": true,
+  "colour_bars_labelled": true,
+  "physical_scale_preserved": true,
+  "panel_accessories": {
+    "a": [],
+    "b": [
+      "legend_cost_methods",
+      "legend_mc_statistics"
+    ],
+    "c": [
+      "colorbar_reductions"
+    ],
+    "d": [
+      "legend_methods",
+      "legend_mc_statistics"
+    ],
+    "e": [
+      "legend_methods",
+      "legend_mc_statistics"
+    ],
+    "f": [
+      "legend_methods",
+      "legend_mc_statistics"
+    ],
+    "g": [
+      "legend_methods"
+    ],
+    "h": [
+      "legend_methods"
+    ],
+    "i": [
+      "legend_methods"
+    ],
+    "j": [
+      "colorbar_response"
+    ],
+    "k": [
+      "colorbar_response"
+    ],
+    "l": [
+      "colorbar_response"
+    ]
+  },
+  "accessories_in_panels": true,
+  "minimum_font_pt": 10.5,
+  "export_format": "png",
+  "png_dpi": 300,
+  "density_provenance": {
+    "source_hashes": {
+      "draws.csv.gz": "24cba45e871f4240771e2443b6a0da865eadae7685186e84b16592dcf3212712",
+      "method_summary.csv": "c49f56659daf3397a0c4285e42a2df5ba7737df89f9dff6a9fc2c358b674078f",
+      "run_manifest.json": "6b2579d45d7dfe8897fc9218a84886284742c4cb2c06484752c203e7d928f389"
+    },
+    "caption_source_hashes": {
+      "summary.csv": "e31a20e133b2306e328a2fffc169f0e1523ee330ab5b81b33f0aba91cb48260c",
+      "method_summary.csv": "c49f56659daf3397a0c4285e42a2df5ba7737df89f9dff6a9fc2c358b674078f",
+      "sensitivity.csv": "5e95c237ff3a02bd18f25200438f971310ceb7f3aa91943e29bba78d3505253f",
+      "two_factor.csv": "c1e622a4b91615882b406fbeabf99ba196a3ebe5856059b5be6d946c6e820594",
+      "run_manifest.json": "6b2579d45d7dfe8897fc9218a84886284742c4cb2c06484752c203e7d928f389"
+    },
+    "n_draws_per_method": 800000,
+    "primary_seed": 20260921,
+    "n_free_inputs": 16,
+    "bin_count": 160,
+    "bin_space": "log10",
+    "shared_edges": true,
+    "log_bin_edges": [
+      1.651760109819088,
+      3.8460839835046237
+    ],
+    "smoothing": {
+      "sigma_bins": 1.0,
+      "mode": "reflect",
+      "truncate": 4.0
+    },
+    "quantile_method": "linear",
+    "all_cost_quantiles_reproduced": true,
+    "cost_scenario_order": [
+      "proposed_no_targeted_rpt",
+      "proposed",
+      "pulse",
+      "eis",
+      "partial_charge",
+      "rpt"
+    ],
+    "no_targeted_rpt_cost_column": "data_cost_USD",
+    "no_targeted_rpt_summary_sha256": "0658ecab79a7876bc2256dc6112f03e46ecb3ec5bc951715934c85e811445e05",
+    "draw_ids_verified": "Each method has every integer draw_id from 0 through 799999 exactly once",
+    "density_sha256": "8b3a59658857d3e589874dee0433f6506a7b0c0adc44e3c0ed1878cda44b7309",
+    "caption_sha256": "5b842d25ab0207f23aaa82e2ed91f198c63162ad73585eb8afb8154eff846d8f",
+    "response_scale": {
+      "minimum_pct": 29.551718260529256,
+      "maximum_pct": 90.32839173608924,
+      "vmin": 25.0,
+      "vmax": 95.0,
+      "original_limits": [
+        35,
+        95
+      ],
+      "default_variant_limits": [
+        30,
+        95
+      ]
+    },
+    "builder_sha256": "22507a9682385786fa1e8b5234590c40f5aac3b5a09b0cdfe1c58e3e36f91d65",
+    "python_executable": "C:\\envs\\venv1\\Scripts\\python.exe",
+    "numpy_version": "2.1.0",
+    "pandas_version": "2.3.2",
+    "scipy_version": "1.16.2",
+    "validation_scope": "packaged_reference_artifacts; raw_draws_not_present",
+    "caption_text_scope": "Public documentation wording; density cache values and method definitions unchanged."
+  },
+  "input_hashes": {
+    "summary.csv": "e31a20e133b2306e328a2fffc169f0e1523ee330ab5b81b33f0aba91cb48260c",
+    "method_summary.csv": "c49f56659daf3397a0c4285e42a2df5ba7737df89f9dff6a9fc2c358b674078f",
+    "sensitivity.csv": "5e95c237ff3a02bd18f25200438f971310ceb7f3aa91943e29bba78d3505253f",
+    "two_factor.csv": "c1e622a4b91615882b406fbeabf99ba196a3ebe5856059b5be6d946c6e820594",
+    "run_manifest.json": "6b2579d45d7dfe8897fc9218a84886284742c4cb2c06484752c203e7d928f389",
+    "baseline_method_summary.csv": "0658ecab79a7876bc2256dc6112f03e46ecb3ec5bc951715934c85e811445e05",
+    "cost_density.csv": "8b3a59658857d3e589874dee0433f6506a7b0c0adc44e3c0ed1878cda44b7309",
+    "cost_density_provenance.json": "ab9d4e6b1991d9631ce614d22ac3080dda05586245a749d8eeafb1274f1c14c4",
+    "figure_caption.md": "5b842d25ab0207f23aaa82e2ed91f198c63162ad73585eb8afb8154eff846d8f"
+  },
+  "script_sha256": "29af1bb27f1f6e4fe595fc9b89dcc28e6420252965c85d528e331b0cf9b2ecaf",
+  "renderer_sha256": "3967e5688b49f85201e825151387bfbe991c66bcaa57d0daead69951efc643d4",
+  "source_hashes": {
+    "summary.csv": "e31a20e133b2306e328a2fffc169f0e1523ee330ab5b81b33f0aba91cb48260c",
+    "method_summary.csv": "c49f56659daf3397a0c4285e42a2df5ba7737df89f9dff6a9fc2c358b674078f",
+    "sensitivity.csv": "5e95c237ff3a02bd18f25200438f971310ceb7f3aa91943e29bba78d3505253f",
+    "two_factor.csv": "c1e622a4b91615882b406fbeabf99ba196a3ebe5856059b5be6d946c6e820594",
+    "run_manifest.json": "6b2579d45d7dfe8897fc9218a84886284742c4cb2c06484752c203e7d928f389",
+    "baseline_method_summary.csv": "0658ecab79a7876bc2256dc6112f03e46ecb3ec5bc951715934c85e811445e05",
+    "cost_density.csv": "8b3a59658857d3e589874dee0433f6506a7b0c0adc44e3c0ed1878cda44b7309",
+    "cost_density_provenance.json": "ab9d4e6b1991d9631ce614d22ac3080dda05586245a749d8eeafb1274f1c14c4",
+    "figure_caption.md": "5b842d25ab0207f23aaa82e2ed91f198c63162ad73585eb8afb8154eff846d8f"
+  },
+  "source_storage": "path_index",
+  "source_index": "../../results/figure_data/source_index.json",
+  "assets": {
+    "a": {
+      "size_mm": [
+        232.00000000000003,
+        61.90555555555555
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "1 tonne cells\nr = 0.8\nSOC = 0.4",
+        "Labelling: p = 15%\nOriginal full RPT",
+        "All deployment cells: (1-p)N\nRequired de-energisation to zero SOC\nDiagnosis during discharge",
+        "Targeted full RPT: q = 4%\nq(1-p)N cells; start at zero SOC\n1.5 h charge + 10 min rest\n+ r h discharge; grid E_cell/eta",
+        "Incremental time, electricity,\ncost and CO2",
+        "Remaining 96%: no extra RPT",
+        "Common baseline subtracted once: direct discharge from initial SOC to zero"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          228.0,
+          54.99999999999998
+        ]
+      ],
+      "base": "panel_a_workflow",
+      "exports": {
+        "png": "f63e8679cc7102ac3daf82ffc887fe7949227143ece3ac14c69056a6f484a227"
+      }
+    },
+    "b": {
+      "size_mm": [
+        109.28930555555557,
+        48.077500000000015
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Incremental cost (USD/tonne)",
+        "100",
+        "1000",
+        "Proposed (no targeted RPTs)",
+        "Proposed+targeted RPTs",
+        "Pulse-based",
+        "EIS-based",
+        "Partial-charge-based",
+        "RPT-based"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          56.0415277777778,
+          33.600000000000016
+        ]
+      ],
+      "base": "panel_b_cost_distribution",
+      "exports": {
+        "png": "f7d981067260b2eac4599df1951bd8680fb761c03130bd4f8e4e31e15b9cc2c4"
+      }
+    },
+    "c": {
+      "size_mm": [
+        100.14180555555554,
+        48.077500000000015
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "73.2",
+        "18.5",
+        "18.5",
+        "81.0",
+        "49.5",
+        "49.5",
+        "50.6",
+        "57.3",
+        "57.3",
+        "78.2",
+        "78.0",
+        "78.0",
+        "Cost",
+        "Electricity",
+        "CO₂",
+        "Pulse-based",
+        "EIS-based",
+        "Partial-charge-based",
+        "RPT-based",
+        "Median reduction (%)",
+        "0",
+        "50",
+        "100"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          41.20000000000002,
+          38.11555555555556
+        ],
+        [
+          2.1999999999999877,
+          38.11555555555556
+        ]
+      ],
+      "base": "panel_c_relative_reductions",
+      "exports": {
+        "png": "e1359480671088594049972a60e412ba0c95a127eac1473f3b77981a2b0c8a2f"
+      }
+    },
+    "d": {
+      "size_mm": [
+        80.98930555555557,
+        43.40038888888888
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Cost savings\n(USD/tonne)",
+        "0",
+        "1500",
+        "3000",
+        "Pulse-based",
+        "EIS-based",
+        "Partial-charge-based",
+        "RPT-based"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          41.20000000000002,
+          24.999999999999986
+        ]
+      ],
+      "base": "panel_d_cost_savings",
+      "exports": {
+        "png": "8d6bc7996990bc7222aaf447412b5b43e0155571ce0647497fa537deb5c30952"
+      }
+    },
+    "e": {
+      "size_mm": [
+        53.252986111111106,
+        43.40038888888888
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Electricity savings\n(kWh/tonne)",
+        "−50",
+        "0",
+        "50",
+        "100",
+        "150"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          43.00000000000001,
+          24.999999999999986
+        ]
+      ],
+      "base": "panel_e_electricity_savings",
+      "exports": {
+        "png": "f78b5175a6926997280dea715ca30a0cd00d0c09dbbc5b0d4ebd5edff8ce5697"
+      }
+    },
+    "f": {
+      "size_mm": [
+        50.21229166666662,
+        43.40038888888888
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "CO₂ emissions savings\n(kg-CO₂/tonne)",
+        "−30",
+        "0",
+        "30",
+        "60",
+        "90"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          41.0,
+          24.999999999999986
+        ]
+      ],
+      "base": "panel_f_co2_savings",
+      "exports": {
+        "png": "1cbce2ee8e85787a47881d2c83676d134462d5f2b716c6a484ae7258ae07edc2"
+      }
+    },
+    "g": {
+      "size_mm": [
+        63.646805555555545,
+        41.82333333333331
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Average capacity retention (%)",
+        "60",
+        "75",
+        "90",
+        "Cost reduction (%)",
+        "40",
+        "60",
+        "80",
+        "100"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          42.00000000000001,
+          23.99999999999999
+        ]
+      ],
+      "base": "panel_g_capacity_sensitivity",
+      "exports": {
+        "png": "43768bf9577d51f8d81baa4b0adcacd102bd49c4be960f75852f5376c79ee1b8"
+      }
+    },
+    "h": {
+      "size_mm": [
+        56.56569444444445,
+        39.81805555555551
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Average initial SOC (%)",
+        "20",
+        "40",
+        "60",
+        "40",
+        "60",
+        "80",
+        "100"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          42.00000000000001,
+          23.99999999999999
+        ]
+      ],
+      "base": "panel_h_initial_soc_sensitivity",
+      "exports": {
+        "png": "03e7f068d6c7002541193996e25d42c592a734bb5a1a75a8bf47ee80a0c349d9"
+      }
+    },
+    "i": {
+      "size_mm": [
+        56.565694444444446,
+        39.81805555555551
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Labelled set fraction (%)",
+        "5",
+        "10",
+        "20",
+        "30",
+        "40",
+        "60",
+        "80",
+        "100"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          42.00000000000002,
+          23.99999999999999
+        ]
+      ],
+      "base": "panel_i_label_fraction_sensitivity",
+      "exports": {
+        "png": "8df80b68789b4876e29dda224a75daf63ffe596df6849be2c1ec329216ef0f16"
+      }
+    },
+    "j": {
+      "size_mm": [
+        56.51847222222222,
+        65.49916666666667
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Labelled set fraction (%)",
+        "Average initial SOC (%)",
+        "75",
+        "Pulse-based",
+        "20",
+        "40",
+        "60",
+        "80",
+        "EIS-based",
+        "45",
+        "60",
+        "Partial-charge-\nbased",
+        "5",
+        "20",
+        "30",
+        "20",
+        "40",
+        "60",
+        "70",
+        "80",
+        "RPT-based",
+        "5",
+        "20",
+        "30"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          17.000000000000007,
+          17.000000000000007
+        ],
+        [
+          17.00000000000001,
+          17.000000000000007
+        ],
+        [
+          17.000000000000007,
+          17.000000000000007
+        ],
+        [
+          17.00000000000001,
+          17.000000000000007
+        ]
+      ],
+      "heatmap_gaps_mm": {
+        "horizontal": 6.599999999999999,
+        "vertical": 12.000000000000004
+      },
+      "base": "panel_j_fraction_initial_soc",
+      "exports": {
+        "png": "a1fa384482740f8404093c494083a7bcac93e900c5cd78a177ecb6a152b9189c"
+      }
+    },
+    "k": {
+      "size_mm": [
+        59.50180555555551,
+        65.49916666666664
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Average capacity retention (%)",
+        "Average initial SOC (%)",
+        "70",
+        "75",
+        "Pulse-based",
+        "20",
+        "40",
+        "60",
+        "80",
+        "EIS-based",
+        "50",
+        "55",
+        "Partial-charge-\nbased",
+        "60",
+        "75",
+        "90",
+        "20",
+        "40",
+        "60",
+        "80",
+        "RPT-based",
+        "60",
+        "75",
+        "90"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          16.99999999999999,
+          16.99999999999998
+        ],
+        [
+          16.99999999999999,
+          16.99999999999998
+        ],
+        [
+          16.99999999999999,
+          16.99999999999998
+        ],
+        [
+          16.99999999999999,
+          16.99999999999998
+        ]
+      ],
+      "heatmap_gaps_mm": {
+        "horizontal": 6.599999999999987,
+        "vertical": 12.000000000000004
+      },
+      "base": "panel_k_capacity_initial_soc",
+      "exports": {
+        "png": "53af7e9673933851c0e5f613da3b3446f2727c8d56d2b04af6efdb1d88807233"
+      }
+    },
+    "l": {
+      "size_mm": [
+        56.51847222222223,
+        65.49916666666667
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Labelled set fraction (%)",
+        "Average capacity retention (%)",
+        "70",
+        "Pulse-based",
+        "60",
+        "75",
+        "90",
+        "80",
+        "EIS-based",
+        "45",
+        "60",
+        "Partial-charge-\nbased",
+        "5",
+        "20",
+        "30",
+        "60",
+        "75",
+        "90",
+        "75",
+        "80",
+        "RPT-based",
+        "5",
+        "20",
+        "30"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          17.00000000000001,
+          17.000000000000007
+        ],
+        [
+          17.00000000000001,
+          17.000000000000007
+        ],
+        [
+          17.00000000000001,
+          17.000000000000007
+        ],
+        [
+          17.00000000000001,
+          17.000000000000007
+        ]
+      ],
+      "heatmap_gaps_mm": {
+        "horizontal": 6.599999999999987,
+        "vertical": 12.000000000000004
+      },
+      "base": "panel_l_fraction_capacity",
+      "exports": {
+        "png": "4dd5fd126756b724dcf08e79cb7efef5a1aa9138e65931cbc1891635502d4186"
+      }
+    },
+    "legend_methods": {
+      "size_mm": [
+        156.20597222222221,
+        10.349999999999993
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Pulse-based",
+        "EIS-based",
+        "Partial-charge-based",
+        "RPT-based"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [],
+      "base": "legend_methods_panels_d_i",
+      "exports": {
+        "png": "89a7944b042c57eff2a72890511c080d11621221953f622a2782756c67dbb2ef"
+      }
+    },
+    "colorbar_reductions": {
+      "size_mm": [
+        19.852499999999978,
+        45.50222222222224
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Median reduction (%)",
+        "0",
+        "50",
+        "100"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          2.1999999999999877,
+          38.11555555555556
+        ]
+      ],
+      "base": "colourbar_panel_c",
+      "exports": {
+        "png": "6efbe75d8c06ecbb1a32f3ac22a819591f75cf6980510f59043f6edaa7b57a2b"
+      }
+    },
+    "colorbar_response": {
+      "size_mm": [
+        17.393333333333345,
+        53.386666666666684
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Cost reduction (%)",
+        "25",
+        "60",
+        "95"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [
+        [
+          2.99999999999999,
+          46.000000000000014
+        ]
+      ],
+      "base": "colourbar_panels_j_l",
+      "exports": {
+        "png": "72257cc6339caef795b2a3aba77316295038e0fc4b5b66e35e33f45f2af3a0e4"
+      }
+    },
+    "monte_carlo_note": {
+      "size_mm": [
+        116.76541666666667,
+        11.309555555555518
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Monte Carlo: 800,000 draws; seed 20260921; 16 independent inputs\np ~ Tri(0.05, 0.15, 0.30); q ~ Tri(0.03, 0.04, 0.05)"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [],
+      "base": "monte_carlo_note_panels_b_f",
+      "exports": {
+        "png": "e69f0bd85891cc40608a1bb08765a4210eba23c8b8d4c45d055185daf5479c84"
+      }
+    },
+    "legend_cost_methods": {
+      "size_mm": [
+        145.72847222222222,
+        15.588749999999965
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Proposed (no targeted RPTs)",
+        "Proposed+targeted RPTs",
+        "Pulse-based",
+        "EIS-based",
+        "Partial-charge-based",
+        "RPT-based"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [],
+      "base": "legend_methods_panel_b",
+      "exports": {
+        "png": "85399e042fc8672ae12833fafae06ab7669123c3a8c30b81659689c705376a08"
+      }
+    },
+    "legend_mc_statistics": {
+      "size_mm": [
+        83.62194444444444,
+        10.349999999999993
+      ],
+      "minimum_font_pt": 10.5,
+      "crop_padding_mm": 2,
+      "text_outside_crop": [],
+      "text_overlaps": [],
+      "passed": true,
+      "text": [
+        "Median",
+        "95% simulation interval"
+      ],
+      "font_sizes_pt": [
+        10.5
+      ],
+      "axes_size_mm": [],
+      "base": "legend_statistics_panels_b_f",
+      "exports": {
+        "png": "13617fee4f0cdd8418d477fa78da9b8162d44cf3e8997193ede7bfdc752a737f"
+      }
+    }
+  },
+  "python_executable": "D:\\envs\\venv1\\Scripts\\python.exe",
+  "completed_at_utc": "2026-10-10T09:47:05.675792+00:00"
+}

@@ -1,0 +1,78 @@
+{
+  "panel": "upstream_fragment_availability",
+  "dataset": "NMC_A",
+  "figure3_panel": "l",
+  "figure_files": [
+    {
+      "file": "panel_l_NMC_A.png",
+      "sha256": "c6d2eab953cc3fbbee3c7e325150254bbf11c8adca281697961a7cc91db903ab"
+    }
+  ],
+  "source_batch": 4,
+  "n_cells": 353,
+  "input_file": "NMC_A_data_processed.mat",
+  "input_sha256": "c87b8ca50809178597af222878b3c5e76692cc2f9e66a95d0d3daf89405e0e33",
+  "width_mm": 42.0,
+  "height_mm": 52.8,
+  "png_dpi": 600,
+  "font_family": "Arial",
+  "font_size_pt": 9,
+  "minimum_text_canvas_clearance_pt": 0.33842519685039735,
+  "nearest_text_to_canvas": "Number of available cells",
+  "axis_linewidth_pt": 0.4,
+  "tight_crop": false,
+  "source_data_file": "source_data.csv",
+  "discharge_stage": "partial (~1C)",
+  "tail_region_V": [
+    3.0,
+    3.3
+  ],
+  "upstream_edges_V": [
+    3.3,
+    3.3499999999999996,
+    3.4,
+    3.4499999999999997,
+    3.5,
+    3.55,
+    3.5999999999999996
+  ],
+  "initial_voltage_removal_V": 0.0,
+  "count_definition": "0 (none): Vinit < 3.35 V; k=1..6: Vinit >= upper endpoint of fragment k",
+  "count_mode": "cumulative_available_fragment",
+  "voltage_comparison_tolerance_V": 1e-09,
+  "zero_tick_label": "None",
+  "zero_tick_alignment": "right",
+  "x_tick_labels": [
+    "None",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "minimum_x_tick_label_gap_pt": 5.832613526048976,
+  "available_counts": [
+    6,
+    347,
+    340,
+    334,
+    325,
+    311,
+    285
+  ],
+  "bar_value_labels": [
+    "6",
+    "347",
+    "340",
+    "334",
+    "325",
+    "311",
+    "285"
+  ],
+  "bar_value_label_count": 7,
+  "bar_value_label_font_size_pt": 7,
+  "bar_value_label_rotation_deg": 90.0,
+  "minimum_bar_label_canvas_clearance_pt": 7.969041181799171,
+  "bar_label_overlap_count": 0
+}

@@ -1,0 +1,260 @@
+{
+  "dataset": "LFP dataset",
+  "category": "correlation",
+  "notebook": "Correlation analysis/plot.ipynb",
+  "notebook_sha256": "fb0627127c5b84f716796f66e5b26b331a0ee982e3487e43fa9cab2ee99e70ea",
+  "datasets": {
+    "LFP_data_processed.mat": {
+      "path": "..\\dataset\\LFP_data_processed.mat",
+      "sha256": "7c95928c620bf23c61456225fca8838a21951432b7ffe58ce75bd0d651b82d05"
+    }
+  },
+  "figures": [
+    {
+      "path": "..\\outputs\\correlation\\tail_segment_subbins_correlation_Vtail_2.73.png",
+      "sha256": "c11520cde5b0155fdbb21717bf5c48e9e5b0d2106871b9a14b75e4da87c5e0f5",
+      "dpi": 300,
+      "figsize_inches": [
+        10.0,
+        5.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\correlation\\tail_segment_subbins_correlation_Vtail_2.75.png",
+      "sha256": "c3909bf053d00501948c31b4fbe61d487988ce37a1c84b5bc06d6045071fc30d",
+      "dpi": 300,
+      "figsize_inches": [
+        10.0,
+        5.0
+      ]
+    },
+    {
+      "path": "..\\outputs\\correlation\\tail_segment_subbins_correlation_Vtail_2.77.png",
+      "sha256": "a03c7a6771a398d33e0aa2ce7a96375761c15b16cd4a0f5dd02a0b288ffadbe6",
+      "dpi": 300,
+      "figsize_inches": [
+        10.0,
+        5.0
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "path": "correlation\\Tail_correlations_Vtail_2.73.csv",
+      "sha256": "f104f7f7f8893a5fe744c5c60cc8720db602a3998ef0470638cd2aa27953b285",
+      "rows": 47,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag1_correlations_Vtail_2.73.csv",
+      "sha256": "a1ae3e9d86b956590cf773f5140723b3e187805ec62bc09c010d838b09127da4",
+      "rows": 9,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag2_correlations_Vtail_2.73.csv",
+      "sha256": "bc43204c9b92b20186a6f6cc13cf5a0811b52832b9705e051595730c13c165e9",
+      "rows": 11,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag3_correlations_Vtail_2.73.csv",
+      "sha256": "31aec92e08fe433937969f029846f85ab4fb8c55fed0eca287a9b560c1aa29b4",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag4_correlations_Vtail_2.73.csv",
+      "sha256": "36d150a30934b0c30eb6f3321aa9d895301e10703eff279feb5acd5c2597ca9d",
+      "rows": 9,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag5_correlations_Vtail_2.73.csv",
+      "sha256": "3a58734185e299b84d7e2deac74fe16ca49a26fb295ef6dc1aa54db46349c005",
+      "rows": 11,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag6_correlations_Vtail_2.73.csv",
+      "sha256": "c5ed1d76e1f985a3de4ef61a98e1e907084df542f2bcc3a2731820111943ee28",
+      "rows": 9,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Tail_correlations_Vtail_2.75.csv",
+      "sha256": "cdebac9dbb56361d86402f2f97a7dec69650a0b12116e85ad646fea68eacb7b7",
+      "rows": 51,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag1_correlations_Vtail_2.75.csv",
+      "sha256": "6bc26aa78e7cd9267fb67a3a35b9b0b639099661a37ccdf8093b2333604eaf8a",
+      "rows": 11,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag2_correlations_Vtail_2.75.csv",
+      "sha256": "11e979adceafeed88b6dbcefa5b782e1cee672b94e7c97b793ab7fbe9e5a954d",
+      "rows": 9,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag3_correlations_Vtail_2.75.csv",
+      "sha256": "96a72acf896475e9019b441e0592b90456be65d4ee28c5fec305a2089e9bdfca",
+      "rows": 11,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag4_correlations_Vtail_2.75.csv",
+      "sha256": "5fcf758b7cefaff326877dd2f2daffe0610854be587959085a05a55b8183383e",
+      "rows": 9,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag5_correlations_Vtail_2.75.csv",
+      "sha256": "f8514fb07de95d7efd8f36d2d8e8cee3fc39d17f4077452bc04c3fcdbd48d57c",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag6_correlations_Vtail_2.75.csv",
+      "sha256": "19a1ac272f85f74e57804688ef6ac8422d60901aa20e20111d05e32bd0404386",
+      "rows": 11,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Tail_correlations_Vtail_2.77.csv",
+      "sha256": "b921650c74e720d9cda740452c1606c1f40d80bc243f4afd1935d9a009c39da7",
+      "rows": 54,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag1_correlations_Vtail_2.77.csv",
+      "sha256": "a70fdf2dfba8773bcca1505c43b1927321e4ad592280734efd6edc11c8325d74",
+      "rows": 11,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag2_correlations_Vtail_2.77.csv",
+      "sha256": "c799c9ba7ccc83b0de87c693fe36cdc594117756ea41e7c348fa41525e5979ff",
+      "rows": 9,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag3_correlations_Vtail_2.77.csv",
+      "sha256": "d71d41a4bc311523b029a4a4164cf73056735983c24f02710871fe7daf1b26fd",
+      "rows": 10,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag4_correlations_Vtail_2.77.csv",
+      "sha256": "0c578e5ed94fcb01ea543b71fb2586d27cd32d7e8cfb9fde198bc5de50493f41",
+      "rows": 11,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag5_correlations_Vtail_2.77.csv",
+      "sha256": "6d3f5ef3e16d5e03f1b50c253ab54c7cd147ea591c589f21fd2937501a3c4111",
+      "rows": 9,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    },
+    {
+      "path": "correlation\\Frag6_correlations_Vtail_2.77.csv",
+      "sha256": "2263bb46698c42af52983341c9e5576073e5aaacb8a88aef2f33d229a033330e",
+      "rows": 11,
+      "columns": [
+        "processed_row_zero_based",
+        "mean_voltage_V",
+        "pearson_r"
+      ]
+    }
+  ],
+  "versions": {
+    "numpy": "2.1.3",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.1",
+    "scikit_learn": "1.6.1"
+  },
+  "interpretation": "Descriptive dataset analysis; no trained model is used. See README for sampling and SOC definitions."
+}

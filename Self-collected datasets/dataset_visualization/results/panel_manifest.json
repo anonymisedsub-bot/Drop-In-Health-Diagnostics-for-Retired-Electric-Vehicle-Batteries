@@ -1,0 +1,265 @@
+{
+  "figure": 3,
+  "scope": "d/e/g/h/j and NMC parts of k/l",
+  "panels": [
+    {
+      "stem": "panel_d_NMC_A",
+      "dataset": "NMC_A",
+      "panel": "d",
+      "metadata": "panel_d_NMC_A/metadata.json",
+      "figure_files": [
+        {
+          "file": "panel_d_NMC_A.png",
+          "sha256": "01e4baf5d02c24c5f099a1d652353f7e6ba335aca1363de0f44c1f22e19f5abe"
+        }
+      ]
+    },
+    {
+      "stem": "panel_g_NMC_A",
+      "dataset": "NMC_A",
+      "panel": "g",
+      "metadata": "panel_g_NMC_A/metadata.json",
+      "figure_files": [
+        {
+          "file": "panel_g_NMC_A.png",
+          "sha256": "bd5d89c211bdff929e4dc891f7f535f7697469b45982f298632976145bba020d"
+        }
+      ]
+    },
+    {
+      "stem": "panel_k_NMC_A",
+      "dataset": "NMC_A",
+      "panel": "k",
+      "metadata": "panel_k_NMC_A/metadata.json",
+      "figure_files": [
+        {
+          "file": "panel_k_NMC_A.png",
+          "sha256": "47a9baf156aa67362283cf2e4cbc6ebe05ec5ddb062cfa8ccb2199963965100b"
+        }
+      ]
+    },
+    {
+      "stem": "panel_l_NMC_A",
+      "dataset": "NMC_A",
+      "panel": "l",
+      "metadata": "panel_l_NMC_A/metadata.json",
+      "figure_files": [
+        {
+          "file": "panel_l_NMC_A.png",
+          "sha256": "c6d2eab953cc3fbbee3c7e325150254bbf11c8adca281697961a7cc91db903ab"
+        }
+      ]
+    },
+    {
+      "stem": "panel_e_NMC_B",
+      "dataset": "NMC_B",
+      "panel": "e",
+      "metadata": "panel_e_NMC_B/metadata.json",
+      "figure_files": [
+        {
+          "file": "panel_e_NMC_B.png",
+          "sha256": "f3484cc3a3589d28636f4b1f1c692f80a28f2a827a4b7e93cdcaca36efb1e6b4"
+        }
+      ]
+    },
+    {
+      "stem": "panel_h_NMC_B",
+      "dataset": "NMC_B",
+      "panel": "h",
+      "metadata": "panel_h_NMC_B/metadata.json",
+      "figure_files": [
+        {
+          "file": "panel_h_NMC_B.png",
+          "sha256": "6d05b6c027d09b5ee6fb68282344971adbd5e8ce00b901070b7b24e0ffe997f4"
+        }
+      ]
+    },
+    {
+      "stem": "panel_k_NMC_B",
+      "dataset": "NMC_B",
+      "panel": "k",
+      "metadata": "panel_k_NMC_B/metadata.json",
+      "figure_files": [
+        {
+          "file": "panel_k_NMC_B.png",
+          "sha256": "ab5d1338f8fa6c00c48e4440351a2c80f99f435670fa4f6b08970b4a07b5d816"
+        }
+      ]
+    },
+    {
+      "stem": "panel_l_NMC_B",
+      "dataset": "NMC_B",
+      "panel": "l",
+      "metadata": "panel_l_NMC_B/metadata.json",
+      "figure_files": [
+        {
+          "file": "panel_l_NMC_B.png",
+          "sha256": "151bb72fa4bc21472c9aeab61ec89e49bc1c1b5936de50dfa5f6bfd44057b834"
+        }
+      ]
+    },
+    {
+      "stem": "panel_j_initial_voltage",
+      "dataset": "LFP + NMC_A + NMC_B",
+      "panel": "j",
+      "metadata": "panel_j_initial_voltage/metadata.json",
+      "figure_files": [
+        {
+          "file": "panel_j_initial_voltage.png",
+          "sha256": "5d4a954adfeac9da679c75f86a9f7b1f79715d31ae2abefa76e804af7b7edc99"
+        }
+      ]
+    }
+  ],
+  "figures_directory": "..\\outputs",
+  "datasets": [
+    {
+      "dataset": "NMC_A",
+      "n_cells": 353,
+      "input_sha256": "c87b8ca50809178597af222878b3c5e76692cc2f9e66a95d0d3daf89405e0e33",
+      "mapping_sha256": "74b63b9cf21e92abb5b5533d761452c91235f9d07827bcae672d0739d97c2bd1",
+      "tail_region_V": [
+        3.0,
+        3.3
+      ],
+      "upstream_edges_V": [
+        3.3,
+        3.3499999999999996,
+        3.4,
+        3.4499999999999997,
+        3.5,
+        3.55,
+        3.5999999999999996
+      ]
+    },
+    {
+      "dataset": "NMC_B",
+      "n_cells": 334,
+      "input_sha256": "5b0baca80cffb9a85bd48918bf1da81f1a1839fcff12e02cf846e5b40fb36549",
+      "mapping_sha256": "74b63b9cf21e92abb5b5533d761452c91235f9d07827bcae672d0739d97c2bd1",
+      "tail_region_V": [
+        2.75,
+        3.2
+      ],
+      "upstream_edges_V": [
+        3.2,
+        3.25,
+        3.3000000000000003,
+        3.35,
+        3.4000000000000004,
+        3.45,
+        3.5
+      ]
+    }
+  ],
+  "figure_count": 9,
+  "overview": "Figure_3_NMC_overview.png",
+  "source_code": {
+    "figure3_initial_voltage.py": "c22a048b93669dbcc66baa11f34a02e494c2861d685a7f2f2ba32c35fdb51d7c",
+    "figure3_panels.py": "fc1ef6e52172903aac69fc881344562581ae6212568762710256349730029df1",
+    "plot.py": "4bf773fe831a154710df3f71a8012d0f701786ebaef4d245cb874b2d52d2c1e4"
+  },
+  "source_data": [
+    {
+      "file": "NMC_A_cell_identity.csv",
+      "sha256": "3ade9329ca7cc8592b09b3743fb2403365df505f12356510a857cf76b87214ea"
+    },
+    {
+      "file": "NMC_B_cell_identity.csv",
+      "sha256": "7b05d65f773a02349fcafa44b657a1c7d6600d014782ccd01d028f35df96aa2e"
+    },
+    {
+      "file": "panel_d_NMC_A\\histogram.csv",
+      "sha256": "55cac1ddd04457c53a96a3ac9271045de3578b3803aac3b074a1e890cc5a2adb"
+    },
+    {
+      "file": "panel_d_NMC_A\\metadata.json",
+      "sha256": "7aeada904b561e85abb8d9bb0d25aebb6384c0b8b97d409b82fa0c8b9c35cd4a"
+    },
+    {
+      "file": "panel_d_NMC_A\\source_data.csv",
+      "sha256": "4140634b5db1cca47bbd90cdaf99503a629a0c2e9a3a8e3654e3ddf5ed65ca65"
+    },
+    {
+      "file": "panel_e_NMC_B\\histogram.csv",
+      "sha256": "db9f250c023e73078d4203cf08c89fc6ece3d222c278826126c5d90a83db9aa9"
+    },
+    {
+      "file": "panel_e_NMC_B\\metadata.json",
+      "sha256": "6d0b1423900943225f2ec9e5c3b0e57ca0b92851b8d2e3f7932f5c8d15bd11a4"
+    },
+    {
+      "file": "panel_e_NMC_B\\source_data.csv",
+      "sha256": "ee1f27f5412bddb9cfaaefcf4c2951ff5bbea9f89e26a4f2ae39383e4361b4c3"
+    },
+    {
+      "file": "panel_g_NMC_A\\metadata.json",
+      "sha256": "580596d2b63a6489e60168c6b225542986d9e05d35907928a7227f25e71a815e"
+    },
+    {
+      "file": "panel_g_NMC_A\\source_data.npz",
+      "sha256": "feb69c3fb3055ebc83192e899bd6e13c50215057a54311fc6951d7c5c6f7fbee"
+    },
+    {
+      "file": "panel_h_NMC_B\\metadata.json",
+      "sha256": "a863b98fb380a9261de0f2d46deed77269577eaf278f2540da2076a317cdc00b"
+    },
+    {
+      "file": "panel_h_NMC_B\\source_data.npz",
+      "sha256": "ff0eb4314b30de21faa4754c89f02f536dc2f71283ed0e74325ddb3e250be20c"
+    },
+    {
+      "file": "panel_j_initial_voltage\\metadata.json",
+      "sha256": "8d66a7a88bbedfddd9ebadf69eea93f1782de8517e19daaafbe79e50eb4dc393"
+    },
+    {
+      "file": "panel_j_initial_voltage\\quartiles.csv",
+      "sha256": "256b1aabe2bac3ede7beab7ad895150a0ae3ee88fe58512f68d32a95aa421de9"
+    },
+    {
+      "file": "panel_j_initial_voltage\\source_data.csv",
+      "sha256": "ccd46b2a6f62cd6a47619b30a9eece646fa374c2242e3e289133cd668b29cb5e"
+    },
+    {
+      "file": "panel_k_NMC_A\\metadata.json",
+      "sha256": "3a5f746e69fc1a98bf95081b920f490ad514796e480d3416d8cf545678225b80"
+    },
+    {
+      "file": "panel_k_NMC_A\\source_data.npz",
+      "sha256": "58fdf51a8a06a5c39d231c42b99bb6d0b682be2fafe0720c705b4f39311b73fc"
+    },
+    {
+      "file": "panel_k_NMC_B\\metadata.json",
+      "sha256": "b223ecb928cf2268c79066cb9e5879be00ceadd65bcf21a112942e951e936037"
+    },
+    {
+      "file": "panel_k_NMC_B\\source_data.npz",
+      "sha256": "47bf1d68ee560c26a8aa48b3136ca4947c29eae8b4061296ea0f8223f3fa3218"
+    },
+    {
+      "file": "panel_l_NMC_A\\measured_initial_voltages.csv",
+      "sha256": "3b1549a0c0b3dbfb2a7732983158c738b9e19601955dab32bb310ceccdbbac53"
+    },
+    {
+      "file": "panel_l_NMC_A\\metadata.json",
+      "sha256": "1b7a5e2e5598262c1684ce6f439fc3072de7778924ae6cecceca795f927b86b1"
+    },
+    {
+      "file": "panel_l_NMC_A\\source_data.csv",
+      "sha256": "20987c39973b65d895555b6e0c1a8994ddf820be5af4f5a8d2dbdb6cc4727e59"
+    },
+    {
+      "file": "panel_l_NMC_B\\measured_initial_voltages.csv",
+      "sha256": "887a0823860e4d9928dc540423c915a41f72d05ce326237a88b3e592a2cbfc0f"
+    },
+    {
+      "file": "panel_l_NMC_B\\metadata.json",
+      "sha256": "132c39fedc75ede0c5c72d98711a8fb9ca2cd70a92e8b0efde1fe4c0ed24071c"
+    },
+    {
+      "file": "panel_l_NMC_B\\source_data.csv",
+      "sha256": "d2b0331970a8aaff83cb51da296db62e3fb529812a5e030255a9bb063753bc60"
+    }
+  ],
+  "interpretation": "Descriptive data panels. Initial NMC voltages are measured; LFP voltages are simulated. Figure 3l uses cumulative fragment availability."
+}

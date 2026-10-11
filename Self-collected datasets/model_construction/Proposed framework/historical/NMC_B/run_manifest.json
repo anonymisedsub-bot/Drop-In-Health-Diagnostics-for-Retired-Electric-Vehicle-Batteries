@@ -1,0 +1,87 @@
+{
+  "status": "completed",
+  "started_utc": "2026-09-19T05:09:00.405512+00:00",
+  "python_executable": "D:\\envs\\venv1\\Scripts\\python.exe",
+  "device": "cuda",
+  "method_key": "proposed",
+  "model": null,
+  "dataset_batch": 3,
+  "source_batch": 6,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "tail_voltage_range": [
+    2.75,
+    3.2
+  ],
+  "upstream_voltage_range": [
+    3.2,
+    3.5
+  ],
+  "upstream_span": 0.3,
+  "voltage_removal_window": 0.0,
+  "partial_gap_rule": "use contiguous measured prefix through first missing Q/V/IC interval",
+  "dataset_path": "D:\\pythonProject\\Drop-In Health Diagnostics for Retired Electric Vehicle Batteries - R1 - additional\\Data preprocessing\\ReBATT_data_processed_batch_6.mat",
+  "dataset_sha256": "5b0baca80cffb9a85bd48918bf1da81f1a1839fcff12e02cf846e5b40fb36549",
+  "cohort": {
+    "source_count": 334,
+    "rounds": 7,
+    "seeds": {
+      "0": {
+        "eligible_count": 334,
+        "pool_count": 180,
+        "validation_count": 62,
+        "test_count": 62,
+        "rounds": 7
+      },
+      "1": {
+        "eligible_count": 334,
+        "pool_count": 180,
+        "validation_count": 62,
+        "test_count": 62,
+        "rounds": 7
+      },
+      "2": {
+        "eligible_count": 334,
+        "pool_count": 180,
+        "validation_count": 62,
+        "test_count": 62,
+        "rounds": 7
+      }
+    },
+    "identity_provenance": "The MAT has no original battery/source ID arrays. Output identity fields are 1-based column positions in this exact MAT file, not original battery IDs or columns in another file. Source Batch is assigned from the explicitly selected batch file."
+  },
+  "runtime_config_overrides": {
+    "V_MIN": 2.75,
+    "VSEG_LOW": 3.2,
+    "VSEG_UPP": 3.5,
+    "VOLTAGE_REMOVAL_WINDOW": 0.0,
+    "DATASET_BATCHES": [
+      3
+    ],
+    "random_seeds": [
+      0,
+      1,
+      2
+    ],
+    "TAIL_LEN": 64,
+    "TAIL_LEN_ORIGIN": 90
+  },
+  "source_sha256": {
+    "run_result_0919.py": "0da7fd4565c90f03447a36dc72cd830156b29e5a3059d838863d7731d9b43058",
+    "Proposed (Gated fusion+FiLM)\\config.py": "1d703f6034c9cf93a0629c94c921d153a1218dbca89c97f877aba354750e79e2",
+    "Proposed (Gated fusion+FiLM)\\data.py": "cf9701ac4c5cdaa3e81456735c1f21e23e933b0881c01fc861ac1c34095acf42",
+    "Proposed (Gated fusion+FiLM)\\losses.py": "cc5f20748f26548439eab291d84556f2464fb49c2ac02b3bed310d9b61e7466b",
+    "Proposed (Gated fusion+FiLM)\\main.py": "9787eca17b3ae5ced5a408ec7a785a8267d8553f846c135bdd08face51147825",
+    "Proposed (Gated fusion+FiLM)\\model.py": "1496d81b423e959d16ee88ff374e5927e8d406ddf03eff104a161783b0939e95",
+    "Proposed (Gated fusion+FiLM)\\train_model.py": "694f423f39e9a168c074afcf15fd2f0b92d4fc258665a353c7ad14ee5e6c48b3",
+    "common\\__init__.py": "b758fcfe78dce1ec653b13e3cc88e01f9e97e7b1f1fef94891a363c3b6b60c3c",
+    "common\\rebatt_protocol.py": "e7b890f05a7fb0b3fc6c9da138c55256b47cd908fab3a519804dfd6273c512e5",
+    "common\\rebatt_results.py": "7ef030b1daa35104351c710d28b8912f55debc8b1b4708f1fc302bdc801d9cf4",
+    "common\\rebatt_separate.py": "f5012a54d68e251507985625a1e7b17d15530d335c37cd4b155607594be54dfc",
+    "common\\rebatt_source6.py": "0fcd408482c877df94c6964c32120b2a583ad0e5b4b71a2f58a64c59af771f6f"
+  },
+  "finished_utc": "2026-09-19T05:21:27.871805+00:00"
+}

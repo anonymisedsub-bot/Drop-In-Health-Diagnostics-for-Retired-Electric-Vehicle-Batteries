@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "validation_scope": "packaged_reference_artifacts; raw_draws_not_present",
+  "packaged_reference_sha256": {
+    "results/reference/figure_source/cost_density.csv": "8b3a59658857d3e589874dee0433f6506a7b0c0adc44e3c0ed1878cda44b7309",
+    "results/reference/figure_source/cost_density_provenance.json": "ab9d4e6b1991d9631ce614d22ac3080dda05586245a749d8eeafb1274f1c14c4",
+    "results/reference/figure_source/figure_caption.md": "5b842d25ab0207f23aaa82e2ed91f198c63162ad73585eb8afb8154eff846d8f",
+    "results/reference/analysis_design_snapshot.json": "9e46db7a20610af989c6921ce2e47ddd39dee19aefc3c07c18edbc0af381e04f",
+    "results/reference/baseline_reconciliation.json": "7ed078e09dad900ffb59d438a92d1c54385c9ab48b6aa2d9e40d8e82432aaa18",
+    "results/reference/joint_events.json": "45689707ea23a934ddd6c893269aa6b8cb1892df743873b15032781a5be0a443",
+    "results/reference/method_summary.csv": "c49f56659daf3397a0c4285e42a2df5ba7737df89f9dff6a9fc2c358b674078f",
+    "results/reference/old_new_method_summary.csv": "f3b9e7fc5ffb6facaaf040ca9bb0465c417d6df214c2834a073212af56bc4136",
+    "results/reference/old_new_summary.csv": "9e09ffc2621a87a784edcd2666d5d1547247829ad827e6e4cb0ea3c590d4efba",
+    "results/reference/original_reproduction.json": "414bdc253a3c82d15ed4e2a471f9cdc3a33c728c06e509347403f64e85a08b9d",
+    "results/reference/parameter_registry_snapshot.json": "f62aa60ec6fdb9239616aaaee8b0024ef4a0cf8ba9c1e80a0107495518b08a76",
+    "results/reference/q_reference_scenarios.csv": "61ddd0c2068658dba7ec2afe152b7accc8029182ee56ae83a28273c8014d603b",
+    "results/reference/reference_baselines.csv": "e66aa8d6a68339e6853d14b1254fe562ee531b0ef2e41330a0cae126b41fc521",
+    "results/reference/run_manifest.json": "6b2579d45d7dfe8897fc9218a84886284742c4cb2c06484752c203e7d928f389",
+    "results/reference/sensitivity.csv": "5e95c237ff3a02bd18f25200438f971310ceb7f3aa91943e29bba78d3505253f",
+    "results/reference/sensitivity_methods.csv": "5b62ae9ee526ec59636a4ba6e20c08ad3da338cea7f3352c4a75dbe73d696196",
+    "results/reference/summary.csv": "e31a20e133b2306e328a2fffc169f0e1523ee330ab5b81b33f0aba91cb48260c",
+    "results/reference/targeted_rpt_summary.csv": "da2d9f78616a52bd01614c52d763a96ae14ec3c7b04c7860d46abbecc8468206",
+    "results/reference/two_factor.csv": "c1e622a4b91615882b406fbeabf99ba196a3ebe5856059b5be6d946c6e820594",
+    "results/reference/uniform_joint_events.json": "edc218921e2e2c17bba791d0213bd700b3e22acfdd20e49d0299e14a5b1c9c85",
+    "results/reference/uniform_shape_summary.csv": "86ac8dc917f607d0a952a6bb62fbb7d5362e478dbaa33471f1c7217d9fb55c62",
+    "results/reference/verification.json": "00850e49482ef95067faea33c5d1b5451de3872b6cb60b8ceb0f67e21778e77a"
+  },
+  "original_source_sha256": {
+    "outputs/draws.csv.gz": "24cba45e871f4240771e2443b6a0da865eadae7685186e84b16592dcf3212712",
+    "build_density_cache.py": "22507a9682385786fa1e8b5234590c40f5aac3b5a09b0cdfe1c58e3e36f91d65"
+  },
+  "original_source_note": "These are recorded hashes of the original omitted draw ledger and the original cache builder. The original build_density_cache.py hash is not the hash of the current visualization/build_density_cache.py. Reference-only validation does not reread or regenerate the omitted draws; fresh runs verify their own inputs and current builder."
+}

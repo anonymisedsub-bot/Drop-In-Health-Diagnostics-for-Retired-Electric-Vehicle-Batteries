@@ -1,0 +1,22 @@
+{
+  "description": "Final numeric CSV content, frozen after full-table regression against the user-selected version. Gzip container timestamps excluded.",
+  "uncompressed_sha256": {
+    "batch_metrics.csv.gz": "62c920f39715ca0b743459c6c4a0ce9abdf9bb21c87368ff3a6ba0580cfbcdd9",
+    "summary_by_model.csv": "49e76141b9abc079b23307a215f5bff7ccc22a75914cc31624ed812a8741d837",
+    "summary_by_pool_and_vtail.csv": "0b0a40bd733e405cc750492bba735ccdb29dbee658d8bab96661757f6d741980",
+    "paired_batch_effects.csv.gz": "471b83c851097437557c25d45d65ef3a435e6bef20724409aea2be32c803c76c",
+    "paired_summary_by_model.csv": "3b29a0ca788cdafd0df41551251680603b706d61de2bba16598b7ca48a3d2a99",
+    "paired_summary_by_pool_and_vtail.csv": "8ea42d4bfb4a344ead5e79224b4db873ba17a5f5f73520c1d17c836eb4689613",
+    "example_batch0_assignments.csv.gz": "b17e3d4e1c4fd74373fd95e968395804fb9216cd4723a5f2572604808b6e19be",
+    "RPT_workload.csv": "65f5c724806f3836e44873ce51e31cd8340cfb7ce17ebdc14760945335f95422",
+    "RPT_comparison_overview.csv": "a5b91f37181b7e9ca9f527a92898da86ab7388000350b22123d2d5f2a7178ace",
+    "figures/RPT_example_source_data.csv": "803a5b6bbf8c3ba7d55cc090dc0bf2cb93e35b7a30d02ae628d9b1257ac380ca",
+    "figures/RPT_vs_uncertainty_guided_and_workload_source_data.csv": "b94f6a657b4c0f605a31e84be68d357408e620671e30b1e7922d5a6a390c8065",
+    "train_1000/figures/cell_metrics_source_data.csv": "95bc3155010449524c92d442349f016df4ec3911ded733b786ddf36250833401",
+    "train_1000/figures/pack_metrics_source_data.csv": "c6f64b721979398026e2c5c96069295d0d912a08857d3a5609ac2b613fa89993",
+    "train_1600/figures/cell_metrics_source_data.csv": "6f594f5c103d85fc9a409bf01fa3d0858ba4e249df9fac34119de9ccac9ae133",
+    "train_1600/figures/pack_metrics_source_data.csv": "814cd452b83da1fd7193330f715fb8a62856b7ada583cd87e80129ab796c77fd",
+    "train_400/figures/cell_metrics_source_data.csv": "caf73bd689dab0d209c400ec4cf51cb6a2f13c492fe8c4f5c7ee21b89d2c7592",
+    "train_400/figures/pack_metrics_source_data.csv": "7ad92232d639ae061482a310c9134d8c0eedfc42d961c783829c0fe37e7506b9"
+  }
+}

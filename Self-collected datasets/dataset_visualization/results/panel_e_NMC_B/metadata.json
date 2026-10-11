@@ -1,0 +1,41 @@
+{
+  "panel": "cell_number_vs_soh",
+  "dataset": "NMC_B",
+  "figure3_panel": "e",
+  "figure_files": [
+    {
+      "file": "panel_e_NMC_B.png",
+      "sha256": "f3484cc3a3589d28636f4b1f1c692f80a28f2a827a4b7e93cdcaca36efb1e6b4"
+    }
+  ],
+  "source_batch": 6,
+  "n_cells": 334,
+  "input_file": "NMC_B_data_processed.mat",
+  "input_sha256": "5b0baca80cffb9a85bd48918bf1da81f1a1839fcff12e02cf846e5b40fb36549",
+  "width_mm": 52.5,
+  "height_mm": 50.0,
+  "png_dpi": 600,
+  "font_family": "Arial",
+  "font_size_pt": 9,
+  "minimum_text_canvas_clearance_pt": 1.1491338582677175,
+  "nearest_text_to_canvas": "SOH (%)",
+  "axis_linewidth_pt": 0.4,
+  "tight_crop": false,
+  "source_data_file": "source_data.csv",
+  "reference_capacity_Ah": 2.5,
+  "dual_y_axes": true,
+  "right_axis": "within-bin SOH sample SD (percentage points, ddof=1)",
+  "histogram_count_sum": 334,
+  "binning_rule": "scott",
+  "histogram_bin_count": 13,
+  "discharge_stage": "RPT capacity label",
+  "legend_alignment": "bottom",
+  "legend_bottom_figure_fraction": 0.894,
+  "legend_bottom_delta_pt": 0.0,
+  "legend_horizontal_clearance_pt": 3.699926796259881,
+  "legend_to_axes_clearance_pt": 3.4015748031496105,
+  "minimum_legend_canvas_clearance_pt": 5.663622047244096,
+  "left_y_labelpad_pt": 4.0,
+  "right_y_labelpad_pt": 5,
+  "minimum_y_label_clearance_pt": 3.263070866141736
+}
